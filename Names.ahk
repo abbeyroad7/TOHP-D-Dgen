@@ -1,4 +1,4 @@
-;v3.9.1
+;v3.9.2
 ;;Todo
 ;Change family dynamics per race, var set for sibling max, etc
 ;Use ImageSearch for FoundryImport
@@ -21,9 +21,9 @@ Import:
 	}
 	ImportVars:
 	{
-		PlayerCount = 7
-		PlayerLevel = 4
-		ProficiencyBonus = 2	;3 at lvl5 https://5e.tools/tables.html#proficiency%20bonus_xphb	For npcs, not PCs
+		PlayerCount = 6
+		PlayerLevel = 5
+		ProficiencyBonus = 3	;3 at lvl5 https://5e.tools/tables.html#proficiency%20bonus_xphb	For npcs, not PCs
 		
 		ChallengeRating := Round(PlayerCount / 4 * 1.1 * PlayerLevel, 0)
 			;Msgbox %ChallengeRating%
@@ -72,7 +72,7 @@ Prompt:
 		If InStr(Race, "db")
 			{
 				DebugMode = 1
-				Race = human
+				Race = Squaloan
 				Gender = m
 				Goto, Start
 			}
@@ -1066,10 +1066,10 @@ Generate:
 				}
 			If (InStr(NPC_Goal, "{Anatomy}")) || If (InStr(NPC_Flaw, "{Anatomy}")) || If (InStr(NPC_Bond, "{Anatomy}")) || If (InStr(NPC_Ideal, "{Anatomy}")) || If (InStr(NPC_Quirk, "{Anatomy}"))
 				{	;Collapse
-					Loop, Read, %LootDir%\Misc\.Anatomy.ini
+					Loop, Read, %LootDir%\Misc\Anatomy.ini
 						Anatomy_Lines = %A_Index%
 					Random, AnatomysRndLine, 1, %Anatomy_Lines%		
-					FileReadLine, Anatomy, %LootDir%\Misc\.Anatomy.ini, AnatomysRndLine
+					FileReadLine, Anatomy, %LootDir%\Misc\Anatomy.ini, AnatomysRndLine
 					NPC_AnatomyReplacements:
 					{
 						NPC_Goal := StrReplace(NPC_Goal, "{Anatomy}", Anatomy)

@@ -11,14 +11,16 @@ Race_Cha:
 
 Race_Con:
 {
-	If (Race = "Human" || "Verdan" || "Goliath" || "Half-Orc" || "Minotaur" || "Orc" || "Mapach" || "Giant" || "Ogre" || "Siren" || "Troll")
+	If (Race = "Human" || "Verdan" || "Goliath" || "Squaloan" || "Half-Orc" || "Minotaur" || "Orc" || "Mapach" || "Giant" || "Ogre" || "Siren" || "Troll")
 		CON := CON + 1
-	If (Race = "Cervan" || "Dwarf" || "Genasi" || "Simic" || "Warforged" || "Hobgoblin" || "Naga" || "Leonin" || "Lizardfolk" || "Loxodon" || "Duergar" || "Autognome" || "Arboren" || "Construct" || "Fiend" || "Half-Dwarf" || "Myconid" || "Plasmoid" || "Porcein")
+	If (Race = "Cervan" || "Dwarf" || "Genasi" || "Simic" || "Warforged" || "Hobgoblin" || "Whalekin" || "Naga" || "Leonin" || "Lizardfolk" || "Loxodon" || "Duergar" || "Autognome" || "Arboren" || "Construct" || "Fiend" || "Half-Dwarf" || "Myconid" || "Finrin" || "Plasmoid" || "Porcein")
 		CON := CON + 2
 }
 
 Race_Dex:
 {
+	If (Race = "Finrin")
+		DEX := DEX - 1
 	If (Race = "Human" || "Bugbear" || "Locathah" || "Cervan" || "Hedge" || "Luma" || "Skaven" || "Ursine")
 		DEX := DEX + 1
 	If (Race = "Elf" || "Drow" || "Halfling" || "Kobold" || "Goblin" || "Grung" || "Khenra" || "Aarakocra" || "Kenku" || "Kor" || "Tabaxi" || "Harengon" || "Amphibimen" || "Gnoll" || "Lupin" || "Thri-Kreen")
@@ -35,9 +37,9 @@ Race_Int:
 
 Race_Str:
 {
-	If (Race = "Human" || "Leonin" || "Khenra" || "Firbolg" || "Autognome" || "Aarakocra" || "Construct" || "Dwarf" || "Gnoll" || "Kobold" || "Warforged")
+	If (Race = "Human" || "Leonin" || "Khenra" || "Whalekin" || "Firbolg" || "Autognome" || "Aarakocra" || "Construct" || "Dwarf" || "Gnoll" || "Kobold" || "Warforged")
 		STR := STR + 1
-	If (Race = "Dragonborn" || "Goliath" || "Half-Orc" || "Minotaur" || "Orc" || "Bugbear" || "Locathah" || "Githyanki" || "Centaur" || "Giff" || "Fiend" || "Giant" || "Half-Giant" || "Ogre" || "Troll" || "Ursine")
+	If (Race = "Dragonborn" || "Goliath" || "Half-Orc" || "Minotaur" || "Orc" || "Bugbear" || "Squaloan" || "Locathah" || "Githyanki" || "Centaur" || "Giff" || "Finrin" || "Fiend" || "Giant" || "Half-Giant" || "Ogre" || "Troll" || "Ursine")
 		STR := STR + 2
 }
 

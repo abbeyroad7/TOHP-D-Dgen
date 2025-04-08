@@ -24,10 +24,9 @@ IconChange:
 	SceneDir = .Scenes
 }
 
-PartyVariables:
+Variables:
 {
 	PartyLevel = 5
-	
 	PartyHealth:
 	{
 		P1_HP = 49	;Borislav
@@ -37,28 +36,70 @@ PartyVariables:
 		P5_HP = 26	;Scribbles
 		P6_HP = 39	;Yeldarb
 		PartyHealth := P1_HP + P2_HP + P3_HP + P4_HP + P5_HP + P6_HP
-		Msgbox % PartyHealth
+		;Msgbox % PartyHealth
 	}
-	
 }
 
 Prompt:
 {	
-	Inputbox, EnemyCount, Enemy Count,,,200,100
-}
-
-GUIBody:
+	;Inputbox, EnemyCount, Enemy Count,,,200,100
+	
+	GUIInput:
+	GUI, 1:New
+	Gui, 1:add, Text,, Trivial=1 // Easy=2 // Medium=3 // Hard=4 // VeryHard=5 // God=6
+	Gui, 1:Add, Edit, vCR
+	Gui, 1:add, Text,, Enemy Count:
+	Gui, 1:Add, Edit, vEnemyCount
+	Gui, 1:Add, Button, Hidden w0 h0 Default, Save
+	Gui, 1:Show
+	return
+	
+	GUIBody:
+	GUI, 2:New
+	GUI, 2:Color, 050505	;GUI bg color
+	Gui, 2:Font, s14 cWhite, Centaur
+	GUI, 2:add, text, x10 w600, CR : %CR%
+	GUI, 2:add, text, x10 w600, EnemyCount : %EnemyCount%
+	Stats = %HP% HP Str %Str% Dex %Dex% Wis %Wis% Cha %Cha% Int %Int%
+	GUI, 2:add, text, x10 w600, %Stats%
+	;Clipboard = %Stats%
+	
+	Gui, 2:Show, x800 y250
+	
+	#IfWinActive, Statblock.ahk
+	Enter::
 	{
-		
-		GUI, Color, 050505	;GUI bg color
-		Gui, Font, s14 cWhite, Centaur
-		GUI, add, text, x10 w600, EnemyCount : %EnemyCount%
-		GUI, add, text, x10 w600, EnemyCount : %EnemyCount%
-		
-		Gui, Show, x800 y250
-		
-		NPC_Body = 
+		Goto, ButtonSave
+	return
 	}
+	#IfWinActive
+	
+	ButtonSave:
+	GuiControlGet, CR
+	GuiControlGet, EnemyCount
+	GuiControlGet, weight
+	Random, rndStat, -5, 5
+	Random, rndStat1, -5, 5
+	Random, rndStat2, -5, 5
+	Random, rndStat3, -5, 5
+	Random, rndStat4, -5, 5
+	Random, rndStat5, -5, 5
+	CreatureStats:
+	{
+		HP := Ceil((0.05 * CR * PartyLevel * PartyHealth - (rndStat * CR)) / EnemyCount)
+		Str := Ceil(((CR*2.25) + 8) * 1.15 + (rndStat1 * 1.2))
+		Dex := Ceil(((CR*2.25) + 8) * 1.15 + (rndStat2 * 1.2))
+		Wis := Ceil(((CR*2.25) + 8) * 1.15 + (rndStat3 * 1.2))
+		Cha := Ceil(((CR*2.25) + 8) * 1.15 + (rndStat4 * 1.2))
+		Int := Ceil(((CR*2.25) + 8) * 1.15 + (rndStat5 * 1.2))
+	}
+	
+	;Msgbox %CR%
+	Gui, Submit
+	Gui, Destroy
+	Goto, GUIBody
+Return
+}
 
 EndofFile:
 {

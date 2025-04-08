@@ -13,6 +13,7 @@ Eladrin
 Elven
 Faeric
 Fiend
+Finric
 Firbolgic
 Floran
 Gallusian
@@ -69,4 +70,5 @@ Troll
 Ursine
 Vedalken
 Verdish
+Whalekinian
 Yuan-Tian

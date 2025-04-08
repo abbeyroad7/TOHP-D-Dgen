@@ -22,6 +22,7 @@
 ;Scurrian, needs more generations
 ;Tiefling needs testing
 ;Two-headed trolls, cyclops
+;Finrin tusks/elephant seals
 
 Import:
 {
@@ -38,6 +39,7 @@ Import:
 		NameDir = %A_ScriptDir%\Names
 		Clothes = 1
 		PromptGender = 0
+		Rand := ""
 	}
 	
 	IconChange:
@@ -105,8 +107,8 @@ Start:
 	
 	RaceBuilder:
 	{
-		;Race = Changeling	;debug
-		Gender = female	;debug
+		Race = Squaloan	;debug
+		;Gender = male	;debug
 		RaceDir = %NameDir%\%Race%\Generate
 		BeastDir = %NameDir%\Beastiary
 	}
@@ -216,7 +218,7 @@ Start:
 			MainPrompt := StrReplace(MainPrompt, "{SkinColor}", SkinColor)
 			MainPrompt := StrReplace(MainPrompt, "{HairColor}", HairColor)
 			MainPrompt := StrReplace(MainPrompt, "{Color}", Color)
-			MainPrompt := StrReplace(MainPrompt, "{Role}", Role)
+			MainPrompt := StrReplace(MainPrompt, "{Role}", Role) 
 			MainPrompt := StrReplace(MainPrompt, "{Background}", Background)
 			MainPrompt := StrReplace(MainPrompt, "{EyeColor}", EyeColor)
 			MainPrompt := StrReplace(MainPrompt, "{Expression}", Expression)

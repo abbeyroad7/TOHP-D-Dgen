@@ -18,6 +18,7 @@ Eladrin
 Elf
 Fairy
 Fiend
+Finrin
 Firbolg
 Floran
 Gallus
@@ -84,5 +85,6 @@ Vedalken
 Verdan
 Warforged
 Warlock
+Whalekin
 Wizard
 Yuan-Ti
