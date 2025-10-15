@@ -1,0 +1,28 @@
+Weapons\Explosives	A {Wood} wood cart of hay and straw set ablaze
+Weapons\Explosives	A {Wood} wood cart of hay and straw set ablaze
+Weapons\Explosives	A {Wood} wood cart of hay and straw set ablaze
+Weapons\Explosives	{SkinColor} Clay Pot of Oil
+Weapons\Explosives	{SkinColor} Clay Pot of Oil
+Weapons\Explosives	{SkinColor} Clay Pot of Oil
+Weapons\Explosives	{Wood} wood Fire Ship, ocean background
+Weapons\Explosives	{Wood} wood Fire Ship, ocean background
+Weapons\Explosives	{Wood} wood Fire Ship, ocean background
+Weapons\Explosives	{Wood} wood Fire Ship, ocean background
+Weapons\Explosives	Greek Fire
+Weapons\Explosives	Greek Fire
+Weapons\Explosives	Greek Fire
+Weapons\Explosives	{HairColor} Medieval Grenade
+Weapons\Explosives	{HairColor} Medieval Grenade
+Weapons\Explosives	{HairColor} Medieval Grenade
+Weapons\Explosives	{SkinColor} Medieval Molotov Cocktail
+Weapons\Explosives	{SkinColor} Primitive Incendiary
+Weapons\Explosives	{SkinColor} Primitive Incendiary
+Weapons\Explosives	{SkinColor} Steampunk Grenade
+Weapons\Explosives	{SkinColor} Steampunk Grenade
+Weapons\Explosives	{SkinColor} Steampunk Grenade
+Weapons\Explosives	{SkinColor} Magic Grenade
+Weapons\Explosives	{SkinColor} Magic Grenade
+Weapons\Explosives	{SkinColor} Magic Grenade
+Weapons\Explosives	A makeshift bomb filled with sharp {SkinColor} shards, on fire
+Weapons\Explosives	A makeshift bomb filled with sharp {SkinColor} shards, on fire
+Weapons\Explosives	A makeshift bomb filled with sharp {SkinColor} shards, on fire

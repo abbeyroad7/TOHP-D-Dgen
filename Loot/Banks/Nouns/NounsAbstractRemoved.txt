@@ -31,6 +31,8 @@ artist
 automaton
 autumn
 avalanche
+axe
+bag
 bandolier
 bat
 battalion
@@ -49,14 +51,22 @@ bone
 book
 brain
 brandy
+Breastplate
+bridge
 buffalo
+bull
 butterfly
+cactus
 camp
 canal
 canoe
+carriage
+cart
 castle
 cat
 catacomb
+Chain Mail
+Chain Shirt
 cheetah
 cherry
 chess
@@ -93,24 +103,32 @@ crucifixion
 crystal
 dagger
 deer
+deity
 demon
 devil
 dog
 dragon
 dragonfly
 drake
+druid
+dwarf
 eagle
 eclipse
 eel
 elephant
+elf
 elk
 eye
 feather
+feet
+fiend
 fire
 fish
 fishbone
+fist
 flag
 flame
+flower
 flowerpetals
 forest
 fox
@@ -120,7 +138,9 @@ ghost
 giant
 girl
 girlfriend
+gnome
 goat
+goblin
 god
 goddess
 godfather
@@ -131,14 +151,22 @@ grandfather
 grandmother
 grasshopper
 guitar
+Half Plate Armor
 hammer
+hand
+hands
 hatchet
 hawk
 heart
+helmet
 hemp
+Hide Armor
 hook
 hornet
+horse
 hourglass
+human
+hut
 hyena
 ice
 inscription
@@ -154,6 +182,7 @@ knife
 knight
 knot
 leaf
+Leather Armor
 leopard
 lightning
 lion
@@ -165,11 +194,13 @@ lute
 lyre
 lyrics
 machinery
+magic
 mallet
 mammoth
 manatee
 map
 mask
+monk
 monster
 monument
 moon
@@ -178,15 +209,24 @@ mountain
 mushroom
 music-note
 mythology
+obelisk
 octopus
+orc
 owl
 ox
 oyster
+Padded Armor
 parrot
 patriot
 peace
+pen
+pencil
+piano
+pickaxe
 pike
 pipe
+plant
+Plate Armor
 puma
 pumpkin
 puppet
@@ -196,9 +236,12 @@ raccoon
 ram
 rat
 raven
+Ring Mail
 ripple
+rogue
 sabre
 sailboat
+Scale Mail
 scorpion
 scripture
 sculpture
@@ -206,6 +249,7 @@ shark
 sheath
 shield
 shovel
+sickle
 skeleton
 skull
 skyline
@@ -213,23 +257,33 @@ sloth
 smoke
 snail
 snake
+snow
+snowflake
 spear
 spider
 spine
 spiral
+spirit
+Splint Armor
 squid
+Studded Leather Armor
 summit
 sun
 sunflower
 sword
 swordfish
 target
+tent
+thunderstorm
 tortoise
+totem
 town
 trade symbol
 trap
 treasure
+tree
 tribe
+troll
 union
 vampire
 volcano
@@ -237,10 +291,12 @@ vulture
 war
 warlock
 warrior
+water
 wilderness
 wine
 winter
 witch
+wizard
 wolf
 world
 zombie

@@ -78,9 +78,7 @@ Helm that grants complete immunity to mental attacks
 Helm that grants permanent telepathy  
 Helm that grants the wisdom of the ancients  
 Helm that lets the wearer see into the future  
-Helm that reveals hidden truths  
-If a ranged attack targets a friendly creature besides yourself within five feet radius, you can move them and take the shot to negate the damage and effects instead; if they are within a 10 feet radius, use your reaction. "
-Key Dagger
+Helm that reveals hidden truths
 Lantern that banishes all darkness  
 Mirror that reveals alternate realities  
 Observer's Ring	This ring is set with a hemispherical glass eyeball that looks around when it is worn. It functions as an alternative eye for the user and is not affected by magic.

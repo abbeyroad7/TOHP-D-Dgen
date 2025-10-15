@@ -1,0 +1,14 @@
+KnickKnacks\Figurines	Figurine
+KnickKnacks\Orbs	Globe of an unknown planet
+KnickKnacks\Orbs	Orb
+KnickKnacks\Snowglobes	Snowglobe
+Sculptures\Pieces	{NounAR} Sculpture
+Sculptures\Pieces	{NounAR} Sculpture
+Sculptures\Pieces	{NounAR} Sculpture
+Sculptures\Pieces	{NounAR} Sculpture
+Sculptures\Pieces	{NounAR} Sculpture
+Sculptures\Pieces	{NounAR} Sculpture
+Sculptures\Coffins	Coffin
+Sculptures\Gravestones	Gravestone
+Sculptures\Gravestones	Obelisk
+Sculptures\Plaques	Plaque

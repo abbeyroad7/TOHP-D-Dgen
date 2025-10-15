@@ -1,0 +1,7 @@
+Furniture\Doors	Archway
+Furniture\Doors	Door
+Furniture\Doors	Doorway
+Furniture\Doors	Drawbridge
+Furniture\Doors	Gateway
+Magical\Portals	Portal
+Furniture\Windows	Window

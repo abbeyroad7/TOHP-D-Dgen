@@ -1,0 +1,13 @@
+Black
+Blonde
+Blue
+Brown
+Gray
+Green
+Indigo
+Orange
+Purple
+Red
+Tan
+White
+Yellow

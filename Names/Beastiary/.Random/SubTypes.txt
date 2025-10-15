@@ -1,0 +1,105 @@
+Small Alien
+Small Aquatic
+Small Arachnid
+Small Beast
+Small Bird
+Small Coastal
+Small Crestacean
+Small Deep Ocean
+Small Fish
+Small Fungal
+Small Giant
+Small Hellish
+Small Insect
+Small Mammal
+Small Monster
+Small Ocean
+Small Plantlike
+Small Reptile
+Small Rodent
+Small Sea
+Small Undead
+Alien
+Aquatic
+Arachnid
+Beast
+Bird
+Coastal
+Crestacean
+Deep Ocean
+Fish
+Fungal
+Giant
+Hellish
+Insect
+Mammal
+Monster
+Ocean
+Plantlike
+Reptile
+Rodent
+Sea
+Undead
+Tiny Alien
+Tiny Aquatic
+Tiny Arachnid
+Tiny Beast
+Tiny Bird
+Tiny Coastal
+Tiny Crestacean
+Tiny Deep Ocean
+Tiny Fish
+Tiny Fungal
+Tiny Giant
+Tiny Hellish
+Tiny Insect
+Tiny Mammal
+Tiny Monster
+Tiny Ocean
+Tiny Plantlike
+Tiny Reptile
+Tiny Rodent
+Tiny Sea
+Tiny Undead
+Large Alien
+Large Aquatic
+Large Arachnid
+Large Beast
+Large Bird
+Large Coastal
+Large Crestacean
+Large Deep Ocean
+Large Fish
+Large Fungal
+Large Giant
+Large Hellish
+Large Insect
+Large Mammal
+Large Monster
+Large Ocean
+Large Plantlike
+Large Reptile
+Large Rodent
+Large Sea
+Large Undead
+Giant Alien
+Giant Aquatic
+Giant Arachnid
+Giant Beast
+Giant Bird
+Giant Coastal
+Giant Crestacean
+Giant Deep Ocean
+Giant Fish
+Giant Fungal
+Giant Giant
+Giant Hellish
+Giant Insect
+Giant Mammal
+Giant Monster
+Giant Ocean
+Giant Plantlike
+Giant Reptile
+Giant Rodent
+Giant Sea
+Giant Undead

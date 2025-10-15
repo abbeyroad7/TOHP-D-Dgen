@@ -1,0 +1,16 @@
+black
+black
+black
+brown
+brown
+brown
+burgundy
+burgundy
+gray
+gray
+gray
+green
+orange
+red
+red
+white

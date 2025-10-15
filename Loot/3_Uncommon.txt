@@ -48,6 +48,7 @@ A map of the constellations in the nightsky
 A metal bracelet that displays the number of steps you've taken since your last long rest
 A metal rod that is unbreakable  
 A mirror that shows a slightly different reflection  
+A monocle
 A mysterious cube made of {MATERIAL}
 A novel that reads 'Mystery of the {SUBJECT}'
 A ouija board	Made with Common and additional characters for {LANGUAGE}
@@ -55,6 +56,7 @@ A pair of dice that never land the same way twice
 A pair of handcuffs
 A pair of {MATERIAL} gauntlets	+1 AC and advantage on Athletics checks involving pushing or pulling.
 A patch bearing a familial crest	Inscribed with the name: {NAME}
+A patch belonging to a local {ROLE} Guild
 A piece of chalk that writes with sparks  
 A piece of coral	{COLOR}-colored
 A piece of parchment that erases any writing after an hour  
@@ -120,9 +122,37 @@ A {color} elixir	Labeled: {effect}
 A {color} fedora
 A {color} hat	Looks {adj}. Grants +{bonusmod} CHA
 A {color} hat	Out of fashion. Some may consider it retro.	Grants +/-{bonusmod} CHA against a DC10
+A {COLOR} kite
 A {COLOR} leather bound book	Titled 'A Spellbook on the Chrystallography of {GEM}s'
 A {COLOR} leather bound book	Titled 'A Spellbook on the Chrystallography of {GEM}s'
+A {color} pan flute [https://5e.tools/items.html#pan%20flute_xphb]
+A {COLOR} robe made of {FABRIC}
+A {COLOR} robe made of {FABRIC}
+A {COLOR} robe made of {FABRIC}
+A {COLOR} robe made of {FABRIC}
+A {COLOR} robe made of {FABRIC}
+A {COLOR} robe made of {FABRIC}
+A {COLOR} robe made of {FABRIC}
+A {COLOR} robe made of {FABRIC}
+A {COLOR} robe made of {FABRIC}
 A {COLOR} vest
+A {COLOR} {PATTERN} kilt made from {FABRIC}
+A {COLOR} {PATTERN} kilt made from {FABRIC}
+A {GEM}
+A {GEM}
+A {GEM}
+A {GEM}
+A {GEM}
+A {GEM}
+A {GEM}
+A {GEM}
+A {GEM}
+A {GEM}
+A {GEM}
+A {GEM}
+A {GEM}
+A {GEM}
+A {GEM}
 A {MAMMAL} pelt
 A {MAMMAL} pelt
 A {MAMMAL} pelt
@@ -153,6 +183,7 @@ A {SPELL} scroll	Level {SpellTable}
 A {SPELL} scroll	Level {SpellTable}
 A {SPELL} scroll	Level {SpellTable}
 A {SUBJECT} artifect made of {MATERIAL}
+A {SUBJECT} patch
 Adamantine Armor	This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any critical hit against you becomes a normal hit. 
 Adjustable stilts	The stilts take 1 minute to put on or remove. They increase the height of any humanoid wearing them by 2 to 5 feet. Each stilt weighs 8 pounds and is 1 foot long when fully collapsed.
 Adventurer's Robe	"This robe has been specially enchanted to meet the eclectic needs of the adventuring mage. Aside from protecting the wearer from various forms of crushing damage, it also provides protection from the basilisk's petrying gaze and polymorphing powers of rival mages. As with other such robes, the Adventurer's Robe can only be worn by those engaged in the wizardly profession.
@@ -188,6 +219,10 @@ Armageddon Diorama	A tiny diorama made of oak and silver, depicting a prophecy o
 Armentarious' Scroll Tube	A very large scroll tube containing the plans for many of the ancient war engines of Armentarious.
 Astrologer's Chart	An astrologer's chart, inscribed with the finest instruments and the greatest precision upon a vellum which is both supple and expensive. Close inspection by those with the proper knowledge, however, reveals that these charts were constructed around an entirely different night sky ' and, possibly, a calendrical system and length of year unlike anything known upon this world.
 Aumurille's Chest	A miniature golden chest with tiny emeralds lining the top that trace out a mage's sigil. The chest is crafted in exquisite detail. (This is the material component of a 'Secret Chest' (from the spell of the same name) for the ruthless lady-mage Aumurille, who will likely want it back....)
+Automatic Fire	"Take equal amounts of sulphur, rock salt, ashes, thunder stone, and pyrite and pound fine in a black mortar at midday sun. Also in equal amounts of each ingredient mix together black mulberry resin and Zakynthian asphalt, the latter in a liquid form and free-flowing, resulting in a product that is sooty colored. Then add to the asphalt the tiniest amount of quicklime. But because the sun is at its zenith, one must pound it carefully and protect the face, for it will ignite suddenly. When it catches fire, one should seal it in some sort of copper receptacle; in this way you will have it available in a box, without exposing it to the sun. If you should wish to ignite enemy armaments, you will smear it on in the evening, either on the armaments or some other object, but in secret; when the sun comes up, everything will be burnt up." -Julius Africanus
+Automatic Fire	"Take equal amounts of sulphur, rock salt, ashes, thunder stone, and pyrite and pound fine in a black mortar at midday sun. Also in equal amounts of each ingredient mix together black mulberry resin and Zakynthian asphalt, the latter in a liquid form and free-flowing, resulting in a product that is sooty colored. Then add to the asphalt the tiniest amount of quicklime. But because the sun is at its zenith, one must pound it carefully and protect the face, for it will ignite suddenly. When it catches fire, one should seal it in some sort of copper receptacle; in this way you will have it available in a box, without exposing it to the sun. If you should wish to ignite enemy armaments, you will smear it on in the evening, either on the armaments or some other object, but in secret; when the sun comes up, everything will be burnt up." -Julius Africanus
+Automatic Fire	"Take equal amounts of sulphur, rock salt, ashes, thunder stone, and pyrite and pound fine in a black mortar at midday sun. Also in equal amounts of each ingredient mix together black mulberry resin and Zakynthian asphalt, the latter in a liquid form and free-flowing, resulting in a product that is sooty colored. Then add to the asphalt the tiniest amount of quicklime. But because the sun is at its zenith, one must pound it carefully and protect the face, for it will ignite suddenly. When it catches fire, one should seal it in some sort of copper receptacle; in this way you will have it available in a box, without exposing it to the sun. If you should wish to ignite enemy armaments, you will smear it on in the evening, either on the armaments or some other object, but in secret; when the sun comes up, everything will be burnt up." -Julius Africanus
+Automatic Fire	"Take equal amounts of sulphur, rock salt, ashes, thunder stone, and pyrite and pound fine in a black mortar at midday sun. Also in equal amounts of each ingredient mix together black mulberry resin and Zakynthian asphalt, the latter in a liquid form and free-flowing, resulting in a product that is sooty colored. Then add to the asphalt the tiniest amount of quicklime. But because the sun is at its zenith, one must pound it carefully and protect the face, for it will ignite suddenly. When it catches fire, one should seal it in some sort of copper receptacle; in this way you will have it available in a box, without exposing it to the sun. If you should wish to ignite enemy armaments, you will smear it on in the evening, either on the armaments or some other object, but in secret; when the sun comes up, everything will be burnt up." -Julius Africanus
 Axe of Blood
 Backpack Parachute	A humanoid wearing this piece of gear can deploy the parachute as a reaction while falling, or as an action otherwise. The parachute requires at least a 10-foot cube of unoccupied space in which to deploy, and it doesn't open fast enough to slow a fall of less than 60 feet. If it has sufficient time and space to deploy properly, the parachute allows its wearer to land without taking falling damage. Once it has been used, the parachute takes 10 minutes to repack.
 Bag of Holding	This bag has an interior space considerably larger than its outside dimensions, roughly 2 feet in diameter at the mouth and 4 feet deep. The bag can hold up to 500 pounds, not exceeding a volume of 64 cubic feet. The bag weighs 15 pounds, regardless of its contents. Retrieving an item from the bag requires an action. If the bag is overloaded, pierced, or torn, it ruptures and is destroyed, and its contents are scattered in the Astral Plane. If the bag is turned inside out, its contents spill forth, unharmed, but the bag must be put right before it can be used again. Breathing creatures inside the bag can survive up to a number of minutes equal to 10 divided by the number of creatures (minimum 1 minute), after which time they begin to suffocate. Placing a bag of holding inside an extradimensional space created by a Heward's handy haversack, portable hole, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it to a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened. 
@@ -380,6 +415,7 @@ Minting Tools	A set of dies and hammers for minting the king's coinage.
 Mithral Armor	Mithril is a light, flexible metal. A mithral chain shirt or breastplate can be worn under normal clothes. If the armor normally imposes disadvantage on Dexterity (Stealth) checks or has a Strength requirement, the mithral version of the armor doesn't.
 Moonbar Gemstone	"Moonbar is a pearly white, opaque gemstone, usually pale blue with green and gold mottling. Related in type to fire and black opals, but is only slightly more common.
 Moss Earplugs	Two peanut-sized balls of moss sit atop gnarled wooden knobs. Placing one of them in each ear causes total deafness'or total hearing protection, whichever your preference. The player cannot hear anything, and must succeed on a DC 16 Will save to speak a single sentence comprehensibly. However, they are totally immune to all sonic attacks and songs and can fall asleep extremely well. The earplugs can be removed at will.
+Mukluk {MATERIAL} boots
 Necklace with a drop of liquid inside the pendant  
 Neverfull Waterskin	Neverfull Waterskin (It's always half empty.)
 Obsidian Dolphin	An obsidian figurine of a dolphin which is always wet to the touch.
@@ -404,14 +440,18 @@ Portable Light	A palm-sized cylinder that emits a harmless ray of glowing blue l
 Potion of False Bluff	A potion vial containing a sweet. honey-smelling golden syrup. There is a label on the vial written in common, which reads "Potion of Deception".
 Potion of Harmless Flaying	A pearlescent green potion in a glass vial that seems to swirl playfully when started at.
 Potted daffodil that sways when near a source of music
+Potter's Tools [xphb]
 Pouch of Healing Potions	A large carry pouch made from the skin of a monkey. Inside are {1d6} Potions of Greater Healing. 
 Pouch of Mushrooms	A small brown pouch that smells faintly musty. Inside it are {1d4} colourful mushrooms that are unrecognizable, even to a particularly knowledgeable alchemist or naturist. If determined, a painstaking delve through a herbalists library might identify the mushrooms as "sub-space mushrooms" in a madly written diary of a man claiming to be a deposed king called Cooper.
+Priest's Pack [xphb]
 Puppet Theater	An elegant puppet theater. Although its wood is brightly polished and the red of its satin curtains is bright and fresh, the hand-painted sign upon its front (reading 'The Wondrous Show of Punch and Judy' in carnival lettering) is chipped and faded. If the curtains are opened (using a set of finely woven pulley ropes which lie inside the theater), the puppets ' stored in a concealed compartment 'backstage' ' will come to life and perform elaborate shows of their own volition.
 Quicksilver Surprise	In a worn and decaying wall of mud bricks, a single black brick ' polished and perfectly preserved ' stands out in stark contrast. If the brick is pried out and broken open, it will reveal a quicksilver core.
 Rabbit's Foot	A lucky rabbit's foot which hangs from a golden chain. Although separated from the rest of the rabbit, the foot magically lives on: It will respond to touch, bleed if injured, and so forth.
+Rain Catcher [toa]
 Raven Feather Fans	A pair of pole mounted fans made of giant raven feathers
 Raven Pen	A pen made from a raven's feather. Through some magical means it writes continuously from an inexhaustible supply of golden ink upon whatever piece of parchment may be near by.
 Ricochet Sling	 Ricochet-sling ' up to 4 targets (d4 for targets, attack roll each; first attack fail causes ricochet to end [unless a tie, in the case of a tie to AC the ricochet continues])
+Rider's Pack (minus the draft horse) [https://5e.tools/items.html#rider's%20pack_3mxt]
 Ring of Bad Luck
 Ring of Dubious Might	A silver ring, encrusted with a small topaz. Upon wearing it on their finger, the wearer feels incredibly strong and confident. However, entering combat, their confidence immediately dissipates, leaving them terrified.
 Ring of Fake Invisibility	A silver ring inlaid with a trasluscent pearl. There is an inscription in Elvish which reads, "To Elabella, perhaps now you will find your mirror less engrossing."
@@ -422,6 +462,7 @@ Ring with an inscription that changes under the moon
 Romeot and Julio	One of the most famous plays in the works of the famous Orcish bard; Villam Spearshaker. It tells the story of two starcrossed lovers whose familes are locked in a bitter rivalry. They attempt to run away together, only to end up eaten by an ogre. The ogre then proceeds to eat most of the two feuding families, all of the side characters and in a number of early renditions of the play a few members of the audience as well. A note to budding directors: Try not to cast an actual ogre as the ogre.
 Romeot and Julio II	A sequel to the original play by the famous Orcish bard; Villam Speakshaker. Romeot and Julio (or at least, what's left of them) are ressurected as shambling zombies in service to a wealthy merchant. The play ends with the merchant attempting to extract a pound of flesh from Romeot to pay for a debt before getting eaten alive by the two zombies. Their final moments of the play are spent lovingly feeding each other his bloody entrails.
 Salve of Silence	Salve of Silence ' armor improving sound nullifier
+Scholar's Pack [xphb]
 Screaming Arrows	A quarry of 20 Screaming Arrows ' intimidate/fear check
 Sentient Dagger of Sneaking	This sentient dagger attempts to help anytime it's owner tries to sneak by whistling inconspicuously.  For some reason it seems to have been discarded.
 Set of dice that always land on 7  
@@ -438,6 +479,7 @@ Silver locket that occasionally ticks
 Silver Necklace	This silver necklace has a gemstone pendant.
 Silver quill that never dulls  
 Silver ring with an ever-shifting pattern  
+Sinda Berries (10) [toa]
 Skull Idol	Gold dipped idol of several skulls
 Small bag that always seems to hold more than it should  
 Small bronze hand mirror that fogs up in sunlight  
@@ -450,11 +492,13 @@ Small jade statue of a dragon, oddly heavy for its size
 Small leatherbound notebook that refuses to open  
 Small wooden carving of a bird that occasionally whistles  
 Smoke of Deceit	One time use only, grants perfect hide and move silently rolls to all allies. effect is lost if moved within 10ft of enemy
+Snowshoes [idrotf]
 Solomon's Fishing Pole	A cursed fishing pole made of blackened ash. It will never catch a fish ' although, if one attempts to use it unbaited, they will succeed in catching skeleton fish.
 Sortida Compass	Brass dungeon compass, runic markings, always points to nearest exit.
 Sphene Gem	"Sphene is a soft, brittle gemstone (and, like scapra, easily worked by unskilled cutters) of various yellow to green shades, the most prized of these being a fine emerald green.
 Spider-Silk Rope	Giant spider silk rope ' sticks to most surfaces (including oiled gloves)
 Spinel Necklace	A spun leather necklace of deep green Spinel beads.
+Spyglass	Objects viewed through a Spyglass are magnified to twice their size.
 Staff of Eulosus	once per day, standard. lifts target into air for 3 rounds. Enemy can make a reflex save each round to get out DC 10+User level. Deals 1d8 after 1 round, then 2d8, and 3d8 if they cannot get out after 3 rounds
 Staff of Force	once per day, standard. push target 10 ft the direction they are facing. once per day. If target is pushed into another creature, they deal 1d20 damage. to each other. If target is pushed into object, they take 1dTarget can make a fort save against the push, goes against users 1d20+will mod 
 Steel hammer engraved with dwarven runes  
@@ -466,6 +510,7 @@ Susej Cup
 Sword of Battle Fury	Battle Fury-grants the feat Cleave
 Sword of Frost
 Talking Toad	Enchanted talking toad ' polymorphed noble ' knowledge of multiple regions, religions & other worldly strangeness
+Tantan [scag]
 Tapestry	A large, well-made tapestry depicting a local duke.
 Tapestry showing an ever-changing battle scene  
 The Bloody Burden	Each day this blade draws no blood it becomes heavier to bear.
@@ -476,6 +521,8 @@ The Living Lantern	An an ordinary candle lamp with a glass surround and handle.
 The Rhinoclean Helm	The Rhinoclean helm is a large iron cap with visor shaped like the head of a certain kind of beetle. The helm's wearer has advantage on bull rushes and can stand up from being prone once on each of its turns without expending movement. 
 The Rhinocles Helm	The Rhinocles helm is a large iron cap with visor shaped like the head of a certain kind of beetle. The helm's wearer has advantage on bull rushes and can stand up from being prone once on each of its turns without expending movement.
 The severed tongue of a {BEAST}
+Theki Root	This thick marsh root tastes bitter but is thought to aid digestive health. When you use an action to consume a dose, you gain advantage on saving throws against the effects of poisonous or toxic substances for 8 hours.
+Thelarr [scag]
 Thirsty Cup
 This weapon functions both as a lute and a weapon. When used as a lute, it is considered to be a lute and does not require a separate proficiency bonus to play. However, if the user rolls a critical miss with the weapon (a 1 on an attack roll) the lute may become slightly damaged and will require the user to spend an hour to retune it. If the instrument is not returned, whenever the instrument is played, the user is disadvantaged on the Perform check. This weapon can also be used as a bard's spellcasting focus.
 Throwing Axe of Appendage Severing	If the user of this throwing axe manages a critical hit, it will sever an appendage. ' critical = appendage severed
@@ -489,6 +536,7 @@ Totem Pole	A pinewood totem pole of the northern barbarians, bearing six faces (
 Tourmaline Gemstone	A multi colored rectangular Tourmaline gemstone.
 Townshend's Cudgel	"Townshend's Crudgels was invented by its namesake, Peter ""Unknown"" Townshend, a traveling bard who wished his lute to both give beauty and take it away (preferably with a good old fashioned thrashing). His lute design, later copied by some of his admirers, was a simple oak lute, reinforced with an iron shell, to maintain the soft vibration of the sound against the wooden interior, and to give the lute the strength to crack open an orc's skull with a well placed blow.
 Trap Detection Key	A token/key designed to deactivate all traps within the dungeon, requires activation at security box in secret depths of deepest part of dungeon
+Trapper's Pack [xphb]
 Troglodyte Egg	A brown and red flecked egg, about the size of a loaf of bread, that gives off a rancid scent.
 Troll-Rubber Boots	Troll-rubber boots.
 Two yew rings linked together
@@ -498,6 +546,8 @@ Wand of Eye-Poking	A wand of eye poking, four charges. It will unerringly poke o
 Water Opal	"Water Opal is a colourless, clear opal with a play of colour. It is rare and valuable in the Realms, where it is used in scrying devices.
 Waterskin of Inexplicable Amelioration	A sheep's bladder waterskin. It is lined with a suedelike fabric which has been beautifully stiched with the image of a stag's head. 
 Wax candle that roars and crackles like a bonfire while lit
+Whip [xphb]
+Wildroot [toa]
 Woodcutter's axe with a strangely balanced handle  
 Wooden chest with a lock that has no keyhole  
 Woolen scarf that never seems to get wet  
@@ -549,55 +599,9 @@ Zulabar's Fist-Stick	A trolls hand mounted on a three foot rod. It will grasp ob
 {SUBJECT} painting on canvas	Signed by {NAME}
 {SUBJECT} painting on canvas	Signed by {NAME}
 {SUBJECT} painting on canvas	Signed by {NAME}
-A {color} pan flute [https://5e.tools/items.html#pan%20flute_xphb]
-Potter's Tools [xphb]
-Priest's Pack [xphb]
-Rain Catcher [toa]
-Rider's Pack (minus the draft horse) [https://5e.tools/items.html#rider's%20pack_3mxt]
-A {COLOR} robe made of {FABRIC}
-A {COLOR} robe made of {FABRIC}
-A {COLOR} robe made of {FABRIC}
-A {COLOR} robe made of {FABRIC}
-A {COLOR} robe made of {FABRIC}
-A {COLOR} robe made of {FABRIC}
-A {COLOR} robe made of {FABRIC}
-A {COLOR} robe made of {FABRIC}
-A {COLOR} robe made of {FABRIC}
-Scholar's Pack [xphb]
-Sinda Berries (10) [toa]
-Snowshoes [idrotf]
-Spyglass	Objects viewed through a Spyglass are magnified to twice their size.
-Tantan [scag]
-Theki Root	This thick marsh root tastes bitter but is thought to aid digestive health. When you use an action to consume a dose, you gain advantage on saving throws against the effects of poisonous or toxic substances for 8 hours.
-Thelarr [scag]
-Trapper's Pack [xphb]
 {Table-Trinket}
 {Table-Trinket}
 {Table-Trinket}
 {Table-Trinket}
 {Table-Trinket}
 {Table-Trinket}
-Whip [xphb]
-Wildroot [toa]
-A {GEM}
-A {GEM}
-A {GEM}
-A {GEM}
-A {GEM}
-A {GEM}
-A {GEM}
-A {GEM}
-A {GEM}
-A {GEM}
-A {GEM}
-A {GEM}
-A {GEM}
-A {GEM}
-A {GEM}
-A {COLOR} {PATTERN} kilt made from {FABRIC}
-A {COLOR} {PATTERN} kilt made from {FABRIC}
-A {COLOR} kite
-A monocle
-Mukluk {MATERIAL} boots
-A {SUBJECT} patch
-A patch belonging to a local {ROLE} Guild

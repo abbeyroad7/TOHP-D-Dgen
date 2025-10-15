@@ -1,8 +1,9 @@
+Black
+Brown
 Gray
 Green
-Green
-Green
-Green
 Olive
+Red
 Tan
 White
+Yellow

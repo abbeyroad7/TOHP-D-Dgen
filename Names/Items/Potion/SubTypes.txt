@@ -1,0 +1,4 @@
+Consumables\Potions	Bottle
+Consumables\Potions	Elixir
+Consumables\Potions	Potion
+Consumables\Potions	Tincture

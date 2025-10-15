@@ -4,7 +4,6 @@ amber
 black
 black
 black
-blue
 brown
 brown
 brown

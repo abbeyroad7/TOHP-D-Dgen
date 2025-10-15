@@ -1,0 +1,11 @@
+﻿Clay
+Clay
+Mud
+Mud
+Newspaper
+Paper
+Rock
+Sand
+Stone
+Straw
+Wood

@@ -1,0 +1,61 @@
+Tools\Instruments\Keyboard	Accordion
+Tools\Instruments\Keyboard	Electronic Synthesizer
+Tools\Instruments\Keyboard	Grand Piano
+Tools\Instruments\Keyboard	Harpsichord
+Tools\Instruments\Keyboard	Musical Keyboard
+Tools\Instruments\Keyboard	Organinstrument
+Tools\Instruments\Keyboard	Piano
+Tools\Instruments\Percussion	Bass Drum
+Tools\Instruments\Percussion	Bell
+Tools\Instruments\Percussion	Bongos
+Tools\Instruments\Percussion	Chimes
+Tools\Instruments\Percussion	Cowbell
+Tools\Instruments\Percussion	Cymbal
+Tools\Instruments\Percussion	Drumkit
+Tools\Instruments\Percussion	Glockenspiel
+Tools\Instruments\Percussion	Maracas
+Tools\Instruments\Percussion	Rainstick
+Tools\Instruments\Percussion	Snaredrum
+Tools\Instruments\Percussion	Tambourine
+Tools\Instruments\Percussion	Washboard
+Tools\Instruments\Percussion	Windchime
+Tools\Instruments\Percussion	Xylophone
+Tools\Instruments\String	Acoustic Guitar
+Tools\Instruments\String	Banjo
+Tools\Instruments\String	Bass Guitar
+Tools\Instruments\String	Cello
+Tools\Instruments\String	Electric Guitar
+Tools\Instruments\String	Fiddle
+Tools\Instruments\String	Guitar
+Tools\Instruments\String	Harp
+Tools\Instruments\String	Lute
+Tools\Instruments\String	Lyre
+Tools\Instruments\String	Mandolin
+Tools\Instruments\String	Sitar
+Tools\Instruments\String	Theramin
+Tools\Instruments\String	Ukulele
+Tools\Instruments\String	Viola
+Tools\Instruments\String	Violin
+Tools\Instruments\Woodwind	Airhorn
+Tools\Instruments\Woodwind	Bagpipe
+Tools\Instruments\Woodwind	Bassoon
+Tools\Instruments\Woodwind	Bukkehorn
+Tools\Instruments\Woodwind	Clarinet
+Tools\Instruments\Woodwind	Conch Shell
+Tools\Instruments\Woodwind	Didgeridoo
+Tools\Instruments\Woodwind	Flugelhorn
+Tools\Instruments\Woodwind	Flute
+Tools\Instruments\Woodwind	Frenchhorn
+Tools\Instruments\Woodwind	Harmonica
+Tools\Instruments\Woodwind	Horn Instrument
+Tools\Instruments\Woodwind	Kazoo
+Tools\Instruments\Woodwind	Oboe
+Tools\Instruments\Woodwind	Pan Flute
+Tools\Instruments\Woodwind	Piccolo
+Tools\Instruments\Woodwind	Pipeorgan
+Tools\Instruments\Woodwind	Sackbut
+Tools\Instruments\Woodwind	Saxophone
+Tools\Instruments\Woodwind	Trombone
+Tools\Instruments\Woodwind	Trumpet
+Tools\Instruments\Woodwind	Tuba
+Tools\Instruments\Woodwind	Whistle

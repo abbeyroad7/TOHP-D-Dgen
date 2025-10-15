@@ -1,0 +1,15 @@
+Black
+Blue
+Brown
+Charcoal
+Copper
+Gray
+Green
+Maroon
+Orange
+Purple
+Red
+Tan
+Unique
+White
+Yellow

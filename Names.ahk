@@ -1,5 +1,6 @@
 ;v3.9.2
 ;;Todo
+;Picker GUI // images of each race + random
 ;Change family dynamics per race, var set for sibling max, etc
 ;Use ImageSearch for FoundryImport
 ;Incorporate biography on FoundryImport
@@ -7,10 +8,11 @@
 ;Queue for first/last names only
 ;When importing to foundry, seperate pics by race
 ;Merge scripts with use of an import library
-#Requires AutoHotkey v1.1+
-#SingleInstance Force
 Import:
 {
+	#Requires AutoHotkey v1.1+
+	#SingleInstance Force
+
 	IconChange:
 	{
 		I_Icon = C:\Program Files\AutoHotkey\Icons\Names.ico
@@ -53,20 +55,25 @@ Import:
 	}
 }
 
+Vars:
+{
+	SapientDir = K:\Documents\Foundry\Data\moulinette\tiles\custom\TOHP\Tokens\Homebrew\Sapient
+}
+
 Prompt:
 {
 	DebugMode = 0
 	BeastMode = 0
-	Inputbox, Race,,,,200,100
+	Inputbox, Race,,race M/F,,200,120
 		If InStr(Race, " ")
 			{
 				RaceMF := StrSplit(Race, " ")
 				Race := RaceMF.1
 				Gender := RaceMF.2
 					if (Gender = "m")
-						ImgDir = K:\Documents\Foundry\Data\moulinette\tiles\custom\TOHP\Tokens\Homebrew\Sapient\%Race%\Male
+						ImgDir = %SapientDir%\%Race%\Male
 					if (Gender = "f")
-						ImgDir = K:\Documents\Foundry\Data\moulinette\tiles\custom\TOHP\Tokens\Homebrew\Sapient\%Race%\Female
+						ImgDir = %SapientDir%\%Race%\Female
 				Goto, Start
 			}
 		If InStr(Race, "db")
@@ -1199,68 +1206,160 @@ Generate:
 		}
 		End:
 		
-		BeastCheck:
-		{
-			If BeastMode = 1
-			{
-				GUI, Color, 050505	;GUI bg color
-				Goto, BeastGUIBody
-			}
-			If BeastMode = 0
-				Goto, GUICode
-		}
+		;BeastCheck:
+		;{
+		;	If BeastMode = 1
+		;	{
+		;		GUI, Color, 050505	;GUI bg color
+		;		Goto, BeastGUIBody
+		;	}
+		;	If BeastMode = 0
+		;		Goto, GUICode
+		;}
 		
-		GUICode:
-		{
-			GUI, Color, 050505	;GUI bg color
-			Gui, Font, s14 cWhite, Centaur
-			GUI, add, button, gAction%A_Index% y10, % NameArray%A_Index%
-		}
+		;GUICode:
+		;{
+		;	GUI, Color, 050505	;GUI bg color
+		;	Gui, Font, s14 cWhite, Centaur
+		;	GUI, add, button, gAction%A_Index% y10, % NameArray%A_Index%
+		;}
 	}
 	
-	If BeastMode = 0
-		Goto, GuiBody
+	;If BeastMode = 0
+	;	Goto, GuiBody
+	;
+	;BeastGUIBody:
+	;{
+	;	Gui, Font, s12 cGray, Centaur
+	;	GUI, add, text, gAction3 x15 +wrap w600, BeastGen
+	;	
+	;	Gui, Font, s14 cWhite, Centaur
+	;	GUI, add, text, gAction3 x10 w600 r2, %AbilityScores%
+;
+	;	Gui, Show, x800 y250
+	;}
 	
-	BeastGUIBody:
-	{
-		Gui, Font, s12 cGray, Centaur
-		GUI, add, text, gAction3 x15 +wrap w600, BeastGen
-		
-		Gui, Font, s14 cWhite, Centaur
-		GUI, add, text, gAction3 x10 w600 r2, %AbilityScores%
+	;GUIBody:
+	;{
+	;	GUICasing:
+	;	{
+	;		if Gender = m
+	;			FullGender = Male
+	;		if Gender = f
+	;			FullGender = Female
+	;		StringUpper, Race, Race, T
+	;	}
+	;	Gui, Font, s12 cGray, Centaur
+	;	GUI, add, text, gAction3 x15 +wrap w600, %FullGender% %Race% | %NPC_Role% | %NPC_Family% | Lvl_%NPC_Level% %NPC_Class%
+	;	
+	;	Gui, Font, s14 cWhite, Centaur
+	;	GUI, add, text, gAction3 x10 w600 r2, %Traits%
+	;	GUI, add, text, gAction3 x10 w600 r2, ~%NPC_Goal%
+	;	GUI, add, text, gAction3 x10 w600 r3, %Quirks%
+	;	GUI, add, text, gAction3 x10 w600 r4, ~Currently thinking about %NOUN%
+	;	GUI, add, text, gAction3 x10 w600 y320, ~Equipped with a %NPC_Weapons%, %NPC_Armor%
+	;	GUI, add, text, gAction3 x10 w600 y400, %AbilityScores%
+	;	;GUI, add, text, gAction3 x10 w600 y460, Acrobatics | Animal Handling | Arcana | Athletics | Deception | History | Insight | Intimidation | Investigation | Medicine | Nature | Perception | Performance | Persuasion | Religion | Sleight of Hand | Stealth | Survival
+	;	
+	;	Gui, Show, x800 y250
+	;	
+	;	NPC_Body = %FullGender% %Race% | %NPC_Role% | %NPC_Family% | Worships %NPC_Gods% | ~Currently thinking about %NOUN% | ~%NPC_Goal%
+	;}
+	;
+	;pause	;press Escape to resume
+	;Reload
+}
 
-		Gui, Show, x800 y250
-	}
+;# ============================================================================ #
+;# GUI
+MusicDLGUI()
+{
+	global
+	Gui, GenGUI:New	
+	Gui, GenGUI:Color, 050505
+	Gui +LastFound
+	Gui, GenGUI:-Caption
 	
-	GUIBody:
+	;BGImg := GUI_Backgrounds(BGImg)
+	;GUI_CheckAvatarImg()
+	;GUI_Icon()
+
+	Gui, GenGUI:Add, Picture, x0 y0 w500 h300 , %BGImg%
+	Gui, GenGUI:Add, Picture, y10 x10 w480 h280 BackgroundTrans, %MaskShape%
+	
+	Gui, GenGUI:Add, Picture, y24 x20 h56 w56 BackgroundTrans, %Icon%
+	Gui, GenGUI:Font, s16
+	Gui, GenGUI:Add, Text, cWhite BackgroundTrans w325 x86 y28 r1, %CategoryTitle%
+	Gui, GenGUI:Add, Text, cWhite BackgroundTrans w325 x86 y58 r2 %Align%, %Line2%
+	Gui, GenGUI:Add, Picture, x30 y92 w430 h6 , %Bin%\Divider.png
+	;Gui, GenGUI:Add, Text, cGray BackgroundTrans w500 x20 y80 r3, -----------------------------------------------------------------
+	Gui, GenGUI:Font, s12
+	IniRead, RunCount, %MusicIni%, Count, RunCount
+	Gui, GenGUI:Add, Text, cGray w100 x370 y30 BackgroundTrans right, #%RunCount%
+	Gui, GenGUI:Add, Text, cGray w100 x370 y50 BackgroundTrans right, v%Version%
+	Gui, GenGUI:Add, Text, cGray w100 x370 y70 BackgroundTrans right, %Cho%
+
+	Gui, GenGUI:Add, Text, cGray BackgroundTrans r2 x30 y110, Reroll: 0
+	Gui, GenGUI:Add, Text, cGray BackgroundTrans r2 x30 y130, CYO: 1
+	Gui, GenGUI:Add, Text, cGray BackgroundTrans r2 x30 y150, Debug: 2
+	Gui, GenGUI:Add, Text, cGray BackgroundTrans r2 x30 y170, Reload: 3
+	
+	If (Debug = 0)
+		Gui, GenGUI:Add, Picture, y40 x535 h24 w48, %A_ScriptDir%\Libraries\Icons\DebugOff.png
+	If (Debug = 1)
+		Gui, GenGUI:Add, Picture, y40 x530 h24 w48, %A_ScriptDir%\Libraries\Icons\DebugOn.png
+		
+	Gui, GenGUI:Add, Edit, vLauncher x30 w130 y200
+	Gui, GenGUI:Add, Button, default gButtonOK x30 y240, OK
+
+	If (CategoryTitle = "CYO")	;CYO GUI
 	{
-		GUICasing:
-		{
-			if Gender = m
-				FullGender = Male
-			if Gender = f
-				FullGender = Female
-			StringUpper, Race, Race, T
-		}
-		Gui, Font, s12 cGray, Centaur
-		GUI, add, text, gAction3 x15 +wrap w600, %FullGender% %Race% | %NPC_Role% | %NPC_Family% | Lvl_%NPC_Level% %NPC_Class%
-		
-		Gui, Font, s14 cWhite, Centaur
-		GUI, add, text, gAction3 x10 w600 r2, %Traits%
-		GUI, add, text, gAction3 x10 w600 r2, ~%NPC_Goal%
-		GUI, add, text, gAction3 x10 w600 r3, %Quirks%
-		GUI, add, text, gAction3 x10 w600 r4, ~Currently thinking about %NOUN%
-		GUI, add, text, gAction3 x10 w600 y320, ~Equipped with a %NPC_Weapons%, %NPC_Armor%
-		GUI, add, text, gAction3 x10 w600 y400, %AbilityScores%
-		;GUI, add, text, gAction3 x10 w600 y460, Acrobatics | Animal Handling | Arcana | Athletics | Deception | History | Insight | Intimidation | Investigation | Medicine | Nature | Perception | Performance | Persuasion | Religion | Sleight of Hand | Stealth | Survival
-		
-		Gui, Show, x800 y250
-		
-		NPC_Body = %FullGender% %Race% | %NPC_Role% | %NPC_Family% | Worships %NPC_Gods% | ~Currently thinking about %NOUN% | ~%NPC_Goal%
+		Row1_X = 175
+		Row2_X = 290
+		Row3_X = 410
+
+		;Text
+		Gui, GenGUI:Font, s11
+		Gui, GenGUI:Add, Text, cWhite BackgroundTrans w100 x%Row1_X% y105 gBandcamp, Bandcamp
+		Gui, GenGUI:Add, Text, cWhite BackgroundTrans w100 x%Row2_X% y105 gFavorites, Favorites
+		Gui, GenGUI:Add, Text, cWhite BackgroundTrans w100 x%Row3_X% y105 gList, List
+		Gui, GenGUI:Add, Text, cWhite BackgroundTrans w100 x%Row1_X% y135 gTwoSeven, TwoSeven
+		Gui, GenGUI:Add, Text, cWhite BackgroundTrans w100 x%Row2_X% y135 gSmallAlbum, SmallAlbum
+		Gui, GenGUI:Add, Text, cWhite BackgroundTrans w100 x%Row3_X% y135 gGenre, Genre
+		Gui, GenGUI:Add, Text, cWhite BackgroundTrans w100 x%Row1_X% y165 gMusicMap, MusicMap
+		Gui, GenGUI:Add, Text, cWhite BackgroundTrans w100 x%Row2_X% y165 gSpotify, Spotify
+		Gui, GenGUI:Add, Text, cWhite BackgroundTrans w100 x%Row3_X% y165 gJPod, JPod
+		Gui, GenGUI:Add, Text, cWhite BackgroundTrans w100 x%Row1_X% y195 gWordGen, WordGen
+		Gui, GenGUI:Add, Text, cWhite BackgroundTrans w100 x%Row2_X% y195 gRecordLabel, RecordLabel
+		Gui, GenGUI:Add, Text, cWhite BackgroundTrans w100 x%Row3_X% y195 gNotes, Notes
+		Gui, GenGUI:Add, Text, cWhite BackgroundTrans w100 x%Row1_X% y225 gPrevGenre, PrevGenre
+		Gui, GenGUI:Add, Text, cWhite BackgroundTrans w100 x%Row2_X% y225 gYouTube, YouTube
+		Gui, GenGUI:Add, Text, cWhite BackgroundTrans w100 x%Row3_X% y225 gQueueFolder, Queue
+		Gui, GenGUI:Add, Text, cWhite BackgroundTrans w100 x%Row1_X% y255 gScreenshots, Screenshots
+		Gui, GenGUI:Add, Text, cWhite BackgroundTrans w100 x%Row2_X% y255 gRndBandcamp, RndBandcamp
 	}
+
+	Gui, GenGUI:Show, w800 h300 x1150, GenGUI	
+	;Winset, Alwaysontop, On, GenGUI
+	return
 	
-	pause	;press Escape to resume
-	Reload
+	GuiClose:
+		return
+	ButtonOK:
+	{
+		Gui, GenGUI:Submit
+		WinClose, GenGUI
+
+		If (Launcher = "")
+		{
+			return
+		}
+		If (Launcher = "r")		;Debug
+		{
+			Reload
+		}
+	return
+	}
 }
 
 Action1:

@@ -1,0 +1,52 @@
+﻿African
+Asian
+Asian
+Black
+Blue
+Blue
+Blue
+Blue
+Blue
+Blue
+Blue
+Caribbean
+Chinese
+Eastern European
+European
+Gold
+Gray
+Gray
+Gray
+Gray
+Gray
+Green
+Green
+Green
+Green
+Hispanic
+Hispanic
+Indian
+Ivory
+Ivory
+Ivory
+Japanese
+Latin
+Middle Eastern
+Middle Eastern
+Native American
+Olive
+Olive
+Olive
+Pacific Islander
+Pink
+Pink
+Purple
+Purple
+Purple
+Silver
+Slavic
+Teal
+White
+White
+White
+White

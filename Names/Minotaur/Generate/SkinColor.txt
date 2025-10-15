@@ -1,4 +1,6 @@
-﻿Black
+﻿Auburn
+Auburn
+Black
 Black
 Black
 Brown
@@ -7,8 +9,6 @@ Brown
 Brown
 Gray
 Gray
-Red
-Red
 Tan
 Tan
 Tan

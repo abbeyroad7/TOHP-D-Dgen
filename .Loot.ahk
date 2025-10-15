@@ -4,7 +4,7 @@ WorldSettings:
 	Habitat = Temperate	;Your current environmental climate. Options: Global, Coast, Desert, Jungle, Ocean, Temperate, Tundra
 	Level = 5	;Player's current level
 }
-;v4.0.11
+;v4.2.0
 ;# Restructure
 ;# Bugs
 ;If category prompt is entered, it does not exit the mode correctly
@@ -247,6 +247,15 @@ Loop, %QtyMax%
 					PF := PF0.2
 					
 					Loot = {PF-%PF%}
+					;Msgbox %Loot%
+					NC = 1
+				}
+			If (Instr(Prompt, "{"))
+				{
+					PF0 := StrSplit(Prompt, "{")
+					PF := PF0.2
+					
+					Loot = {%PF%
 					;Msgbox %Loot%
 					NC = 1
 				}
@@ -578,15 +587,6 @@ Loop, %QtyMax%
 				;Msgbox %Mammals%	;Debug
 				Loot := StrReplace(Loot, "{Amphibian}", Amphibian)
 			}
-			If (InStr(Loot, "{Aquatic}"))
-			{	;Collapse
-				Loop, Read, %Dir%\Banks\Beastiary\Aquatic\%Habitat%.ini
-					Aquatic_Lines = %A_Index%
-				Random, AquaticRnd, 1, Aquatic_Lines
-				FileReadLine, Aquatic, %Dir%\Banks\Beastiary\Aquatic\%Habitat%.ini, AquaticRnd
-				;Msgbox %Mammals%	;Debug
-				Loot := StrReplace(Loot, "{Aquatic}", Aquatic)
-			}
 			If (InStr(Loot, "{Bird}"))
 			{	;Collapse
 				Loop, Read, %Dir%\Banks\Beastiary\Birds\%Habitat%.ini
@@ -690,6 +690,24 @@ Loop, %QtyMax%
 				FileReadLine, BEVERAGE, %Dir%\Banks\Foods\BEVERAGEs.ini, BEVERAGERnd
 				;Msgbox %Beastiary%	;Debug
 				Loot := StrReplace(Loot, "{BEVERAGE}", BEVERAGE)
+			}
+			If (InStr(Loot, "{SAUCE}"))
+			{	;Collapse
+				Loop, Read, %Dir%\Banks\Foods\Sauces.ini
+					SAUCE_Lines = %A_Index%
+				Random, SAUCERnd, 1, SAUCE_Lines
+				FileReadLine, SAUCE, %Dir%\Banks\Foods\SAUCEs.ini, SAUCERnd
+				;Msgbox %Beastiary%	;Debug
+				Loot := StrReplace(Loot, "{Sauce}", SAUCE)
+			}
+			If (InStr(Loot, "{WINE}"))
+			{	;Collapse
+				Loop, Read, %Dir%\Banks\Foods\WINEs.ini
+					WINE_Lines = %A_Index%
+				Random, WINERnd, 1, WINE_Lines
+				FileReadLine, WINE, %Dir%\Banks\Foods\WINEs.ini, WINERnd
+				;Msgbox %Beastiary%	;Debug
+				Loot := StrReplace(Loot, "{WINE}", WINE)
 			}
 			If (InStr(Loot, "{WOOD}"))
 			{	;Collapse
@@ -807,6 +825,69 @@ Loop, %QtyMax%
 				FileReadLine, Nut, %Dir%\Banks\Foods\Nuts.ini, LocRnd
 				;Msgbox %Beastiary%	;Debug
 				Loot := StrReplace(Loot, "{Nut}", Nut)
+			}
+			If (InStr(Loot, "{BACKGROUND}"))
+			{	;Collapse
+				Loop, Read, %Dir%\Banks\NPC\BACKGROUNDs.ini
+					BACKGROUNDLines = %A_Index%
+				Random, BACKGROUNDRnd, 1, BACKGROUNDLines
+				FileReadLine, BACKGROUND, %Dir%\Banks\NPC\BACKGROUNDs.ini, BACKGROUNDRnd
+				;Msgbox %BACKGROUND%	;Debug
+				Loot := StrReplace(Loot, "{BACKGROUND}", BACKGROUND)
+			}
+			If (InStr(Loot, "{CLASS}"))
+			{	;Collapse
+				Loop, Read, %Dir%\Banks\NPC\CLASSes.ini
+					CLASSLines = %A_Index%
+				Random, CLASSRnd, 1, CLASSLines
+				FileReadLine, CLASS, %Dir%\Banks\NPC\CLASSes.ini, CLASSRnd
+				;Msgbox %CLASS%	;Debug
+				Loot := StrReplace(Loot, "{CLASS}", CLASS)
+			}
+			If (InStr(Loot, "{EXPRESSION}"))
+			{	;Collapse
+				Loop, Read, %Dir%\Banks\NPC\EXPRESSIONs.ini
+					EXPRESSIONLines = %A_Index%
+				Random, EXPRESSIONRnd, 1, EXPRESSIONLines
+				FileReadLine, EXPRESSION, %Dir%\Banks\NPC\EXPRESSIONs.ini, EXPRESSIONRnd
+				;Msgbox %EXPRESSION%	;Debug
+				Loot := StrReplace(Loot, "{EXPRESSION}", EXPRESSION)
+			}
+			If (InStr(Loot, "{FAMILY}"))
+			{	;Collapse
+				Loop, Read, %Dir%\Banks\NPC\FAMILYs.ini
+					FAMILYLines = %A_Index%
+				Random, FAMILYRnd, 1, FAMILYLines
+				FileReadLine, FAMILY, %Dir%\Banks\NPC\FAMILYs.ini, FAMILYRnd
+				;Msgbox %FAMILY%	;Debug
+				Loot := StrReplace(Loot, "{FAMILY}", FAMILY)
+			}
+			If (InStr(Loot, "{TRAIT}"))
+			{	;Collapse
+				Loop, Read, %Dir%\Banks\NPC\TRAITs.ini
+					TRAITLines = %A_Index%
+				Random, TRAITRnd, 1, TRAITLines
+				FileReadLine, TRAIT, %Dir%\Banks\NPC\TRAITs.ini, TRAITRnd
+				;Msgbox %TRAIT%	;Debug
+				Loot := StrReplace(Loot, "{TRAIT}", TRAIT)
+			}
+			If (InStr(Loot, "{ANATOMY}"))
+			{	;Collapse
+				Loop, Read, %Dir%\Banks\Misc\ANATOMY.ini
+					ANATOMYLines = %A_Index%
+				Random, ANATOMYRnd, 1, ANATOMYLines
+				FileReadLine, ANATOMY, %Dir%\Banks\Misc\ANATOMY.ini, ANATOMYRnd
+				;Msgbox %ANATOMY%	;Debug
+				Loot := StrReplace(Loot, "{ANATOMY}", ANATOMY)
+			}
+			If (InStr(Loot, "{FOOD}"))
+			{	;Collapse
+				Loop, Read, %Dir%\Banks\FOODs.ini
+					Loc_Lines = %A_Index%
+				Random, LocRnd, 1, Loc_Lines
+				FileReadLine, FOOD, %Dir%\Banks\FOODs.ini, LocRnd
+				;Msgbox %Beastiary%	;Debug
+				Loot := StrReplace(Loot, "{FOOD}", FOOD)
 			}
 			If (InStr(Loot, "{Material}"))
 			{	;Collapse

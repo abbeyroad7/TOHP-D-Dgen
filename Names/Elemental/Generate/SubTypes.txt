@@ -1,0 +1,62 @@
+Acid
+Air
+Ash
+Black Earth
+Black Smoke
+Black Stone
+Blue Air
+Blue Flame
+Blue Smoke
+Brown Earth
+Brown Ooze
+Clay
+Cloud
+Coal
+Dark Ooze
+Desert
+Diamond
+Disembodied Rock
+Earth
+Fire
+Flame
+Floating Rock
+Fog
+Grass
+Gray Smoke
+Gray Stone
+Green Earth
+Green Ooze
+Green Smoke
+Hurricane
+Ice
+Iron
+Lake
+Lava
+Magma
+Meteorite
+Mist
+Molten Rock
+Mud
+Nuclear
+Nuclear Waste
+Ocean
+Oil
+Radiation
+Rainstorm
+River
+Sand
+Sea
+Seaweed
+Smoke
+Sun
+Swirling Air
+Swirling Clouds
+Swirling Fire
+Thunderstorm
+Tornado
+Tree
+Volcano
+Water
+White Air
+White Smoke
+Yellow Smoke

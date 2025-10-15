@@ -1,0 +1,42 @@
+﻿acid
+albino
+auburn
+black
+blue
+brass
+brown
+burgundy
+chromatic
+copper
+crimson
+cyan
+dark blue
+dark brown
+dark gray
+dark green
+dark orange
+dark red
+ebony
+fire
+gold
+gray
+green
+ice
+indigo
+maroon
+multicolored
+navy blue
+olive
+orange
+purple
+red
+rock
+sickly green
+sickly yellow
+silver
+smoke
+stone
+tan
+water
+white
+yellow

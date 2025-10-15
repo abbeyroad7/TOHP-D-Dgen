@@ -1,0 +1,27 @@
+﻿Bone
+Bone
+Bronze
+Copper
+Diamond
+Glass
+Glass
+Glass
+Gold
+Gold
+Gold
+Insect Mandible
+Metal
+Metal
+Obsidian
+Obsidian
+Pearl
+Silver
+Silver
+Silver
+Steel
+Steel
+Titanium
+Titanium
+Wood
+Wood
+Wood

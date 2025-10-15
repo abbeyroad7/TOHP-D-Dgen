@@ -1,0 +1,47 @@
+Weapons\Axes	Axe
+Weapons\Axes	Axe
+Weapons\Axes	Battleaxe
+Weapons\Axes	Battleaxe
+Weapons\Axes	Handaxe
+Weapons\Axes	Lumberaxe
+Weapons\Axes	War Axe
+Weapons\Flails	Flail
+Weapons\Flails	Flail
+Weapons\Halberd	Halberd
+Weapons\Halberd	Halberd
+Weapons\Pikes	Pike
+Weapons\Pikes	Pike
+Weapons\Spears	Spear
+Weapons\Spears	Spear
+Weapons\Spears	Spear
+Weapons\Scythes	Scythe
+Weapons\Scythes	Scythe
+Weapons\Scythes	Scythe
+Weapons\Sickles	Sickle
+Weapons\Sickles	Sickle
+Weapons\Swords	Bastard Sword
+Weapons\Swords	Broadsword
+Weapons\Swords	Claymore Sword
+Weapons\Swords	Cleaver
+Weapons\Swords	Curved Sword
+Weapons\Swords	Cutlass
+Weapons\Swords	Dao Sword
+Weapons\Swords	Executioner Sword
+Weapons\Swords	Falcata
+Weapons\Swords	Gladius Sword
+Weapons\Swords	Great Sword
+Weapons\Swords	Hook Sword
+Weapons\Swords	Jian Sword
+Weapons\Swords	Katana
+Weapons\Swords	Khopesh
+Weapons\Swords	Longsword
+Weapons\Swords	Rapier
+Weapons\Swords	Sabre
+Weapons\Swords	Sai Sword
+Weapons\Swords	Scimitar
+Weapons\Swords	Shortsword
+Weapons\Swords	Two-Handed Sword
+Weapons\Swords	Xiphos Sword
+Weapons\Swords	Zweihander
+Weapons\Tridents	Trident
+Weapons\Tridents	Trident

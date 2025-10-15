@@ -1,11 +1,12 @@
-﻿{SkinColor} Ant
+﻿Bumblebee
+Bumblebee
+Honeybee
+Honeybee
+Ladybug
+{SkinColor} Ant
 {SkinColor} Ant
 {SkinColor} Ant
 {SkinColor} Aphid
-Honeybee
-Honeybee
-Bumblebee
-Bumblebee
 {SkinColor} Beetle
 {SkinColor} Beetle
 {SkinColor} Beetle
@@ -21,13 +22,15 @@ Bumblebee
 {SkinColor} Dragonfly
 {SkinColor} Dragonfly
 {SkinColor} Fly
+{SkinColor} Fly
 {SkinColor} Grasshopper
 {SkinColor} Grasshopper
-Ladybug
 {SkinColor} Mantis
 {SkinColor} Mantis
 {SkinColor} Mantis
 {SkinColor} Mantis
+{SkinColor} Millipede
+{SkinColor} Millipede
 {SkinColor} Mosquito
 {SkinColor} Moth
 {SkinColor} Moth

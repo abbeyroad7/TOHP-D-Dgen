@@ -1,0 +1,26 @@
+Transport\Boats	Bireme
+Transport\Boats	Galleyship
+Transport\Boats	Longship
+Transport\Boats	Medieval Boat
+Transport\Boats	Medieval Ferry
+Transport\Boats	Medieval Fishing Boat
+Transport\Boats	Medieval Pirate Ferry
+Transport\Boats	Small Medieval Boat
+Transport\Boats	Viking Boat
+Transport\Ships	Brigantine
+Transport\Ships	Caravel
+Transport\Ships	Frigate
+Transport\Ships	Galleon
+Transport\Ships	Large Pirate Ship
+Transport\Ships	Large Viking Ship
+Transport\Ships	Magic Steamship
+Transport\Ships	Medieval Dreadnaught
+Transport\Ships	Medieval Ironclad
+Transport\Ships	Medieval Naval Ship
+Transport\Ships	Medieval Steamship
+Transport\Ships	Medieval Warship
+Transport\Ships	Steampunk Steamship
+Transport\Ships	Trireme
+Transport\Submarines	Magic Submarine
+Transport\Submarines	Medieval Submarine
+Transport\Submarines	Steampunk Submarine

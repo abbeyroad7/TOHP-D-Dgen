@@ -1,0 +1,45 @@
+Wearables\Jewelry\Bracelets	Bangle
+Wearables\Jewelry\Bracelets	Bracelet
+Wearables\Jewelry\Bracelets	Bracelet
+Wearables\Jewelry\Bracelets	Bracelet
+Wearables\Jewelry\Bracelets	Bracelet
+Wearables\Jewelry\Bracelets	Bracelet
+Wearables\Jewelry\Buckles	Buckle
+Wearables\Jewelry\Buckles	Buckle
+Wearables\Jewelry\Buckles	Buckle
+Wearables\Jewelry\Buckles	Buckle
+Wearables\Jewelry\Buckles	Buckle
+Wearables\Jewelry\Crowns	Crown
+Wearables\Jewelry\Crowns	Crown
+Wearables\Jewelry\Crowns	Crown
+Wearables\Jewelry\Necklaces	Necklace
+Wearables\Jewelry\Necklaces	Necklace
+Wearables\Jewelry\Necklaces	Necklace
+Wearables\Jewelry\Necklaces	Necklace
+Wearables\Jewelry\Necklaces	Necklace
+Wearables\Jewelry\Necklaces	Necklace
+Wearables\Jewelry\Pendants	Brooch
+Wearables\Jewelry\Pendants	Clasp
+Wearables\Jewelry\Pendants	Pendant
+Wearables\Jewelry\Pendants	Pendant
+Wearables\Jewelry\Pendants	Pendant
+Wearables\Jewelry\Pendants	Pendant
+Wearables\Jewelry\Pendants	Pendant
+Wearables\Jewelry\Pendants	Pendant
+Wearables\Jewelry\Pendants	Pendant
+Wearables\Jewelry\Pendants	Pendant
+Wearables\Jewelry\Piercings	Earrings
+Wearables\Jewelry\Rings	Magical Ring
+Wearables\Jewelry\Rings	Magical Ring
+Wearables\Jewelry\Rings	Magical Ring
+Wearables\Jewelry\Rings	Magical Ring
+Wearables\Jewelry\Rings	Ring
+Wearables\Jewelry\Rings	Ring
+Wearables\Jewelry\Rings	Ring
+Wearables\Jewelry\Rings	Ring
+Wearables\Jewelry\Rings	Ring
+Wearables\Jewelry\Watches	Medieval Pocket Watch
+Wearables\Jewelry\Watches	Medieval Watch
+Wearables\Jewelry\Watches	Medieval Watch
+Wearables\Storage\Holsters	Sheath
+Wearables\Storage\Holsters	Sheath

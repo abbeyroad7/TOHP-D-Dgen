@@ -9,9 +9,6 @@ brown
 brown
 gray
 gray
-green
-green
 hazel
 hazel
 hazel
-lime

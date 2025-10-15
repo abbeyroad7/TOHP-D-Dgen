@@ -1,0 +1,21 @@
+Furniture\Beds	Bed
+Furniture\Chairs	Barstool
+Furniture\Chairs	Bench
+Furniture\Chairs	Chair
+Furniture\Chairs	Ottoman
+Furniture\Chests	Bookshelf
+Furniture\Chests	Cabinet
+Furniture\Chests	Chest
+Furniture\Chests	Nightstand
+Furniture\Chests	Wardrobe
+Furniture\Chests	Winerack
+Furniture\Desks	Desk
+Furniture\Desks	Workbench
+Furniture\Entertainment	Billiard Table
+Furniture\Entertainment	Piano
+Furniture\Mirrors	Mirror
+Furniture\Plants	Planter
+Furniture\Sofas	Chaise Lounge
+Furniture\Sofas	Sofa
+Furniture\Tables	Table
+Furniture\Tools	Clock

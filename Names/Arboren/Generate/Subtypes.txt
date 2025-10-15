@@ -10,7 +10,6 @@ Birch
 Cedar
 Cedar
 Cedar
-Eaglewood
 Elm
 Elm
 Elm

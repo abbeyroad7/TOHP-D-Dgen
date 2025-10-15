@@ -1,0 +1,93 @@
+Wearables\Clothing\Belts	Belt
+Wearables\Clothing\Cloaks	Cloak
+Wearables\Clothing\Cloaks	Cloak
+Wearables\Clothing\Cloaks	Medieval Hood
+Wearables\Clothing\Coats	Medieval Coat
+Wearables\Clothing\Coats	Medieval Coat
+Wearables\Clothing\Coats	Medieval Jacket
+Wearables\Clothing\Coats	Medieval Jacket
+Wearables\Clothing\Coats	Medieval Long Coat
+Wearables\Clothing\Coats	Pirate Coat
+Wearables\Clothing\Coats	Surcoat
+Wearables\Clothing\Coats	Surcoat
+Wearables\Clothing\Coats	Viking Coat
+Wearables\Clothing\Dresses	Dress
+Wearables\Clothing\Dresses	Gown
+Wearables\Clothing\Dresses	Kirtle
+Wearables\Clothing\Dresses	Long Dress
+Wearables\Clothing\Dresses	Smock
+Wearables\Clothing\Dresses	Smock
+Wearables\Clothing\Gloves	Gloves
+Wearables\Clothing\Gloves	Gloves
+Wearables\Clothing\Gloves	Gloves
+Wearables\Clothing\Gloves	Gloves
+Wearables\Clothing\Handkerchiefs	Handkerchief
+Wearables\Clothing\Handkerchiefs	Kerchief
+Wearables\Clothing\Hats	Bowler Hat
+Wearables\Clothing\Hats	Cavalier Hat
+Wearables\Clothing\Hats	Felt Hat
+Wearables\Clothing\Hats	Fez Hat
+Wearables\Clothing\Hats	Headdress
+Wearables\Clothing\Hats	Jester Hat
+Wearables\Clothing\Hats	Landsknecht Hat
+Wearables\Clothing\Hats	Medieval Hat
+Wearables\Clothing\Hats	Medieval Hat
+Wearables\Clothing\Hats	Medieval Hat
+Wearables\Clothing\Hats	Medieval Hat
+Wearables\Clothing\Hats	Medieval Sailor Hat
+Wearables\Clothing\Hats	Musketeer Hat
+Wearables\Clothing\Hats	Pirate Hat
+Wearables\Clothing\Hats	Top Hat
+Wearables\Clothing\Hats	Torse Hat
+Wearables\Clothing\Hats	Turban
+Wearables\Clothing\Hats	Tyrolean Hat
+Wearables\Clothing\Kilts	Kilt
+Wearables\Clothing\Kilts	Kilt
+Wearables\Clothing\Masks	Demon Mask
+Wearables\Clothing\Masks	Devil Mask
+Wearables\Clothing\Masks	Medieval Clown Mask
+Wearables\Clothing\Masks	Medieval Mask
+Wearables\Clothing\Masks	Medieval Mask
+Wearables\Clothing\Masks	Medieval Party Mask
+Wearables\Clothing\Masks	Medieval Party Mask
+Wearables\Clothing\Masks	Skull Mask
+Wearables\Clothing\Pants	Breeches
+Wearables\Clothing\Pants	Chausses
+Wearables\Clothing\Pants	Pirate Pants
+Wearables\Clothing\Pants	Trousers
+Wearables\Clothing\Pants	Trousers
+Wearables\Clothing\Robes	Robe
+Wearables\Clothing\Scarves	Medieval Scarf
+Wearables\Clothing\Shirts	Laced Shirt
+Wearables\Clothing\Shirts	Pirate Shirt
+Wearables\Clothing\Shirts	Undershirt
+Wearables\Clothing\Shoes	Gladiator Sandals
+Wearables\Clothing\Shoes	Medieval Boots
+Wearables\Clothing\Shoes	Medieval Boots
+Wearables\Clothing\Shoes	Medieval Moccasins
+Wearables\Clothing\Shoes	Medieval Pattens
+Wearables\Clothing\Shoes	Medieval Sandals
+Wearables\Clothing\Shoes	Medieval Sandals
+Wearables\Clothing\Shoes	Medieval Shoes
+Wearables\Clothing\Shoes	Medieval Shoes
+Wearables\Clothing\Shoes	Viking Boots
+Wearables\Clothing\Shoes	Viking Boots
+Wearables\Clothing\Tunics	Bliaut
+Wearables\Clothing\Tunics	Tunic
+Wearables\Clothing\Tunics	Tunic
+Wearables\Clothing\Tunics	Tunic
+Wearables\Clothing\Tunics	Tunic
+Wearables\Clothing\Tunics	Tunic
+Wearables\Clothing\Vests	Vest
+Wearables\Clothing\Vests	Vest
+Wearables\Clothing\Vests	Vest
+Wearables\Clothing\Vests	Vest
+Wearables\Storage\Backpacks	Backpack
+Wearables\Storage\Backpacks	Backpack
+Wearables\Storage\Backpacks	Backpack
+Wearables\Storage\Backpacks	Rucksack
+Wearables\Storage\Backpacks	Rucksack
+Wearables\Storage\Backpacks	Rucksack
+Wearables\Storage\Bags	Sack
+Wearables\Storage\Bags	Sack
+Wearables\Storage\Bags	Sack

@@ -1,0 +1,8 @@
+Transport\Tanks	Medieval Tank
+Transport\Tanks	Steampunk Tank
+Transport\Tanks	Magic Tank
+Transport\Trains	Medieval Train
+Transport\Trains	Steampunk Train
+Transport\Trains	Magic Train
+Transport\Trains	Demonic Train
+Transport\Trains	Ghost Train

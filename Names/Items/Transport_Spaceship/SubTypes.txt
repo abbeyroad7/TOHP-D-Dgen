@@ -1,0 +1,5 @@
+Transport\Spaceships	Medieval Spaceship
+Transport\Spaceships	Steampunk Spaceship
+Transport\Spaceships	Horsedrawn Spaceship
+Transport\Spaceships	Magic Spaceship
+Transport\Spaceships	Demonic Spaceship

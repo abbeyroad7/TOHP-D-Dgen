@@ -1,0 +1,13 @@
+﻿Black
+Blue
+Brown
+Gray
+Green
+Multicolored
+Olive
+Orange
+Purple
+Red
+Tan
+White
+Yellow

@@ -115,7 +115,7 @@ ImageGUI:
 		filePath = %random_file%
 		hBitmap := HBitmapFromWebP(filePath, width, height)
 		random_file = HBITMAP:%hBitmap%
-		#Include, D:\Documents\Notes\DND\DND\Quartz\DM\Scripts\Libraries\DecodeWebP.ahk
+		#Include, D:\Documents\Notes\DND\DND\DM\Scripts\Libraries\DecodeWebP.ahk
 	}
 	
 	Gui, MainWindow:New
@@ -131,23 +131,168 @@ ImageGUI:
 }
 
 GUIBody:
-	{
-		
-		GUI, Color, 050505	;GUI bg color
-		Gui, Font, s14 cWhite, Centaur
-		GUI, add, text, x10 w600, 
-		
-		Gui, Show, x800 y250
-		
-		NPC_Body = %FullGender% %Race% | %NPC_Role% | %NPC_Family% | Worships %NPC_Gods%`n~Currently thinking about %NOUN%`n~%NPC_Goal%
-	}
-
-EndofFile:
 {
-Escape::
-{
-	Reload
+	
+	GUI, Color, 050505	;GUI bg color
+	Gui, Font, s14 cWhite, Centaur
+	GUI, add, text, x10 w600, 
+	
+	Gui, Show, x800 y250
+	
+	NPC_Body = %FullGender% %Race% | %NPC_Role% | %NPC_Family% | Worships %NPC_Gods%`n~Currently thinking about %NOUN%`n~%NPC_Goal%
 }
-+Escape::ExitApp
+
+Encounters()
+{
+	global
+	Gui, Encounters:New	
+	Gui, Encounters:Color, 050505
+	Gui +LastFound
+	Gui, Encounters:-Caption
+	
+	BGImg := GUI_Backgrounds(BGImg)
+	GUI_CheckAvatarImg()
+
+	Gui, Encounters:Add, Picture, x0 y0 w500 h300 , %BGImg%
+	Gui, Encounters:Add, Picture, y10 x10 w480 h280 BackgroundTrans, %MaskShape%
+	
+	Gui, Encounters:Add, Picture, y24 x20 h56 w56 BackgroundTrans, %Icon%
+	Gui, Encounters:Font, s16
+	Gui, Encounters:Add, Text, cWhite BackgroundTrans w325 x86 y28 r1, %CategoryTitle%
+	Gui, Encounters:Add, Text, cWhite BackgroundTrans w325 x86 y58 r2 %Align%, %Line2%
+	Gui, Encounters:Add, Picture, x30 y92 w430 h6 , %Bin%\Divider.png
+	;Gui, Encounters:Add, Text, cGray BackgroundTrans w500 x20 y80 r3, -----------------------------------------------------------------
+	Gui, Encounters:Font, s12
+	IniRead, RunCount, %MusicIni%, Count, RunCount
+	Gui, Encounters:Add, Text, cGray w100 x370 y30 BackgroundTrans right, #%RunCount%
+	Gui, Encounters:Add, Text, cGray w100 x370 y50 BackgroundTrans right, v%Version%
+	Gui, Encounters:Add, Text, cGray w100 x370 y70 BackgroundTrans right, %Cho%
+
+	Gui, Encounters:Add, Text, cGray BackgroundTrans r2 x30 y110, Reroll: 0
+	Gui, Encounters:Add, Text, cGray BackgroundTrans r2 x30 y130, CYO: 1
+	Gui, Encounters:Add, Text, cGray BackgroundTrans r2 x30 y150, Debug: 2
+	Gui, Encounters:Add, Text, cGray BackgroundTrans r2 x30 y170, Reload: 3
+	
+	If (Debug = 0)
+		Gui, Encounters:Add, Picture, y40 x535 h24 w48, %A_ScriptDir%\Libraries\Icons\DebugOff.png
+	If (Debug = 1)
+		Gui, Encounters:Add, Picture, y40 x530 h24 w48, %A_ScriptDir%\Libraries\Icons\DebugOn.png
+		
+	Gui, Encounters:Add, Edit, vLauncher x30 w130 y200
+	Gui, Encounters:Add, Button, default gButtonOK x30 y240, OK
+
+	Gui, Encounters:Show, w500 h300 x1150, Encounters	
+	;Winset, Alwaysontop, On, Encounters
+	return
+	
+	GuiClose:
+		return
+	ButtonOK:
+	{
+		Gui, Encounters:Submit
+		WinClose, Encounters
+
+		If (Launcher = "")
+		{
+			;MainRun()
+		}
+		If (Launcher = "r")		;Debug
+		{
+			Reload
+		}
+		If (Launcher = "0")		;Reroll
+		{
+			Reroll := RegexReplace(CategoryTitle, "`n.+")
+			%Reroll%()
+			Gui, Encounters:Destroy
+			;Msgbox %CategoryTitle%
+			Encounters()
+		}
+		If (Launcher = "2")		;Debug
+		{
+			Debug = 1
+			;MainRun()
+		}
+		If (Launcher = "3")		;Debug
+		{
+			Reload
+		}
+	return
+	}
+}
+
+GUI_Backgrounds(BGImg)
+{
+	global
+	count := 0
+	Loop, %Bin%\Backgrounds\*.jpg
+	{
+		if A_LoopFileAttrib contains H,R,S
+			continue
+		count += 1
+	}
+	Random, FileNumber, 1, %count%
+
+	Loop, Files, %Bin%\Backgrounds\*.jpg, F
+	{
+		;Msgbox %A_Index% %Count%
+		if (A_Index > FileNumber)
+		{
+			BGImg = %Bin%\Backgrounds\%A_LoopFileName%
+			break
+		}
+		;count += 1
+	}
+	return %BGimg%
+}
+
+GUI_CheckAvatarImg()
+{
+	global
+	If (InStr(CategoryTitle, "YouTube"))		;Channel Art
+		ArtistImg = %Bin%\YouTube
+	Else
+	{
+		ArtistImg = G:\Pictures\Art
+		Artist := LineOutput
+	}
+	If (InStr(CategoryTitle, "List")) || If (InStr(CategoryTitle, "Genre"))
+		ArtistImg = %Bin%\List
+	;Msgbox %Artist%
+	
+	;Msgbox %LineOutput%
+	Loop, Files, %ArtistImg%\*, F
+	{
+		ImgFile := StrReplace(A_LoopFileName, "." 	A_LoopFileExt)
+		;Msgbox %ImgFile% %LineOutput%
+
+		if (InStr(Artist, ImgFile))
+		{
+			If (InStr(CategoryTitle, "YouTube"))
+			{
+				BGImg = %ArtistImg%\%ImgFile%-banner.jpg
+				FileToFind = %Artist%.jpg
+			}
+			Else
+				FileToFind = %A_LoopFileName%
+
+			Avatar = %ArtistImg%\%FileToFind%
+			;Msgbox %ImgFile% in %Artist%
+			;Msgbox %Avatar%
+			break
+		}
+	}
+return
+}
+
+;### Hotkeys
+; ================================
+Hotkeys:
+{
+	Escape::
+	{
+		Reload
+	}
+	+Escape::ExitApp
 }
 return

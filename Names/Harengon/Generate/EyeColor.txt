@@ -1,3 +1,4 @@
+Auburn
 Black
 Blue
 Brown
@@ -11,7 +12,6 @@ Green
 Hazel
 Hazel
 Hazel
-Orange
-Orange
+Jade
 Red
 Red

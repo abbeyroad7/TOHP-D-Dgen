@@ -1,6 +1,4 @@
-﻿African
-Asian
-Asian
+﻿Asian
 Black
 Black
 Blue
@@ -11,15 +9,15 @@ Eastern European
 European
 Green
 Green
-Hispanic
+Green
+Green
 Hispanic
 Indian
 Japanese
 Latin
 Middle Eastern
-Middle Eastern
-Native American
-Pacific Islander
+Orange
+Pink
 Pink
 Pink
 Purple
@@ -29,3 +27,6 @@ White
 White
 White
 White
+White
+Yellow
+Yellow

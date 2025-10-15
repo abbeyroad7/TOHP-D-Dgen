@@ -1,0 +1,3 @@
+Furniture\Safes	Safe
+Tools\Keys	Key
+Tools\Keys	Key

@@ -1,2 +1,59 @@
-﻿God
-Goddess
+﻿Humanoid Alligator
+Humanoid Ape
+Humanoid Bat
+Humanoid Bear
+Humanoid Bird
+Humanoid Buffalo
+Humanoid Cow
+Humanoid Deer
+Dwarf
+Humanoid Eagle
+Humanoid Elephant
+Humanoid Elf
+Humanoid Feline
+Humanoid Fish
+Humanoid Gnome
+Humanoid Goblin
+Humanoid Hawk
+Humanoid Horse
+Human
+Human
+Human
+Human
+Human
+Human
+Human
+Human
+Human
+Human
+Human
+Human
+Human
+Human
+Human
+Human
+Human
+Human
+Humanoid Leopard
+Humanoid Lion
+Humanoid Lizard
+Humanoid Monkey
+Humanoid Mouse
+Humanoid Octopus
+Ogre
+Orc
+Humanoid Owl
+Humanoid Rabbit
+Humanoid Rat
+Humanoid Reptile
+Humanoid Rodent
+Humanoid Seal
+Humanoid Shark
+Humanoid Snake
+Humanoid Tiger
+Humanoid Toad
+Humanoid Tree
+Humanoid Turtle
+Vampire
+Humanoid Walrus
+Humanoid Wolf

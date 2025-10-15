@@ -1,0 +1,10 @@
+black
+brown
+brown
+brown
+dark gray
+gray
+gray
+gray
+gray
+white

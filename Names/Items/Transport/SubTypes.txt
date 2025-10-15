@@ -1,0 +1,9 @@
+Transport\Carriages	Carriage
+Transport\Carriages	Wagon
+Transport\Carriages	Chariot
+Transport\Carriages	Cart
+Transport\Carriages	Stagecoach Carriage
+Transport\Sleds	Sled
+Transport\Sleds	Toboggan
+Transport\Sleds	Bobsled
+Transport\Sleds	War Sled

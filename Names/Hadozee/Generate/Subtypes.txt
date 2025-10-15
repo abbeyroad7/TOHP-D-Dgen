@@ -1,3 +1,14 @@
-﻿Simian
-Chimpanzee
+﻿Ape
 Babboon
+Baboon
+Bonobo
+Chimpanzee
+Gibbon
+Gorilla
+Lemur
+Mandrill
+Monkey
+Orangutan
+Proboscis Monkey
+Simian
+Tarsier

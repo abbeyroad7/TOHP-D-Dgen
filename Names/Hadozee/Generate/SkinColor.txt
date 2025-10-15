@@ -1,1 +1,11 @@
-﻿
+﻿black
+black
+blonde
+brown
+brown
+gray
+gray
+red
+tan
+tan
+white

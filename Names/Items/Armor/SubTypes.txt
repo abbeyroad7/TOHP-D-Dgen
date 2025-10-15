@@ -1,0 +1,29 @@
+Armor\Body Armor	Chestplate
+Armor\Body Armor	Cuirass
+Armor\Body Armor	Medieval Body Armor
+Armor\Body Armor	Plate Armor
+Armor\Body Armor	Scale Armor
+Armor\Body Armor	Splint Armor
+Armor\Body Armor	Viking Armor
+Armor\Leg Armor	Leg Guards
+Armor\Gauntlets	Gauntlets
+Armor\Helmets	Armet
+Armor\Helmets	Barbute
+Armor\Helmets	Bascinet Helmet
+Armor\Helmets	Beast Helmet
+Armor\Helmets	Burgonet Helmet
+Armor\Helmets	Close Helm
+Armor\Helmets	Demon Helmet
+Armor\Helmets	Dragon Helmet
+Armor\Helmets	Enclosed Helmet
+Armor\Helmets	Frogmouth Helmet
+Armor\Helmets	Great Helm
+Armor\Helmets	Grotesque Helmet
+Armor\Helmets	Horned Helmet
+Armor\Helmets	Knight Helmet
+Armor\Helmets	Medieval Helmet
+Armor\Helmets	Nasal Helm
+Armor\Helmets	Sallet
+Armor\Helmets	Spangenhelm
+Armor\Helmets	Sugar Loaf Helmet
+Armor\Helmets	Viking Helmet

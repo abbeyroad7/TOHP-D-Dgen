@@ -1,0 +1,34 @@
+const folder = game.folders.getName("Imported");
+if (folder === undefined) {
+Folder.create({name: "Imported", type: "Actor"})
+const folder = game.folders.getName("Imported");
+}
+
+const img = "%FoundryImage%"; 
+const actor = await Actor.create({ 
+  name: "%FoundryName%", 
+  type: "npc", 
+  img: img, 
+ folder: folder, 
+"system.abilities.str.value": %STR%, 
+"system.abilities.dex.value": %DEX%, 
+"system.abilities.con.value": %CON%, 
+"system.abilities.int.value": %INT%, 
+"system.abilities.wis.value": %WIS%, 
+"system.abilities.cha.value": %CHA%,
+"system.details.biography.value": "%NPC_Body%",
+  prototypeToken: { 
+    texture: { 
+      src: img, 
+      scaleX: 1.2, 
+      scaleY: 1.2 
+    }, 
+    width: 1.2, 
+    height: 1.2 
+  } 
+});
+
+const myPack=game.packs.get("world.races")
+const myDocs=await myPack.getDocuments()
+const Race=myPack.getName("%Race%")
+await actor.createEmbeddedDocuments('Item', [Race.toObject()])	
