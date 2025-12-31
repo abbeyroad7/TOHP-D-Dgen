@@ -1,0 +1,123 @@
+Airport
+Amphitheater
+Aquarium
+Aqueduct
+Arboretum
+Archive
+Armory
+Arsenal
+Bank
+Bar
+Barracks
+Basilica
+Bazaar
+Bomb Shelter
+Bridge
+Broadcast Tower
+Brothel
+Building
+Burial Tomb
+Bus Station
+Caravansary
+Casino
+Castle
+Cathedral
+Cinema
+Circus
+Citadel
+Coffee House
+College
+Colosseum
+Colossus
+Constable
+Courthouse
+Data Center
+Desalination Plant
+Embassy
+Factory
+Fire Station
+Floating Gardens
+Forge
+Fort
+Garden
+Geothermal Plant
+Government Facility
+Granary
+Greenhouse
+Hanging Gardens
+Harbor
+Hermitage
+Hospital
+Hotel
+Hydro Plant
+Hydrodam
+Intelligence Agency
+Ironworks
+Laboratory
+Library
+Lighthouse
+Longhouse
+Market
+Medical Lab
+Metro
+Military Academy
+Military Base
+Mint Facility
+Monastery
+Monument
+Mosque
+Mountains
+Movie Theater
+Mud Pyramid Mosque
+Museum
+National Park
+Nuclear Plant
+Nuclear Silo
+Observatory
+Opera House
+Pagoda
+Palace
+Police Station
+Printing Press
+Pub
+Public School
+Pyramid
+Recycling Center
+Resort
+Ruins
+Sculpture
+Seaport
+Server Farm
+Shipyard
+Shopping Center
+Shrine
+Silo
+Skyscraper
+Slaughterhouse
+Solar Plant
+Space Telescope
+Spaceport
+Spaceship Factory
+Stable
+Stadium
+Statue
+Stele
+Stock Exchange
+Stone Works
+Structure
+Tavern
+Temple
+Theatre
+Tourist Center
+Tower
+Treasury
+University
+Walls
+Warehouse
+Wat
+Water Dam
+Watermill
+Windmill
+Workshop
+Ziggurat
+Zoo

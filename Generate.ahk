@@ -1,4 +1,4 @@
-Version = v3.5.0
+Version = v3.5.2
 ;sampling=40 cfg=6
 
 ;# Todo
@@ -33,21 +33,23 @@ Import:
 	
 	Vars:
 	{		
+		GameMode = CIV5	;D&D or CIV5
+		
+		If (GameMode = "DND") || If (GameMode = "D&D")
+			SaveDir = K:\Documents\Foundry\Data\moulinette\tiles\custom\TOHP\Tokens\Homebrew
+		If (GameMode = "CIV5")
+			SaveDir = E:\Documents\My Games\Sid Meier's Civilization V\MODS\Mods\RandomLeaders\Art
+		
+		Clothes = 1
+		PromptGender = 0
+		Rand:="", Type:="", SkipSaveDir:="false"
 		NPCDir = %A_ScriptDir%\Loot\Banks\NPC
 		NameDir = %A_ScriptDir%\Names
 		GenSettings = %NameDir%\GenSettings.ini
-		
-		SaveDir = K:\Documents\Foundry\Data\moulinette\tiles\custom\TOHP\Tokens\Homebrew
 		Sapient_SaveDir = %SaveDir%\Sapient
 		Items_SaveDir = %SaveDir%\Items
 		Beast_SaveDir = %SaveDir%\Beasts
 		Scenes_SaveDir = %SaveDir%\Scenes
-		
-		GameMode = CIV5	;DnD or CIV5
-		Clothes = 1
-		PromptGender = 0
-		Rand := ""
-		Type := ""
 		
 		A_d = {Alt Down}
 		A_u = {Alt Up}
@@ -183,11 +185,20 @@ Start:
 		}
 		If (Race = "Scenes")
 		{
-			Loop, Read, %ScenesDir%\%GenerateDensity%
+			Loop, Read, %ScenesDir%\GenerateDensity.txt
 				Races_Lines = %A_Index%
 			Random, RacesRnd, 1, Races_Lines
-				FileReadLine, Race, %ScenesDir%\%GenerateDensity%, RacesRnd
+				FileReadLine, Race, %ScenesDir%\GenerateDensity.txt, RacesRnd
 			RaceDir = %ScenesDir%\%Race%
+			Type = Scenes
+		}
+		If (Race = "CIV5")
+		{
+			Loop, Read, %NameDir%\CIV5\GenerateDensity.txt
+				Races_Lines = %A_Index%
+			Random, RacesRnd, 1, Races_Lines
+				FileReadLine, Race, %NameDir%\CIV5\GenerateDensity.txt, RacesRnd
+			RaceDir = %NameDir%\CIV5\%Race%
 			Type = Scenes
 		}
 		
@@ -324,7 +335,7 @@ Start:
 		}
 		If (GameMode = "CIV5")
 		{
-			MainPrompt = A realistic oil painting of a {CIV5Eras} {Gender} {CIV5Leader} ({Descriptor}:1.2), standing in a {Background} background
+			MainPrompt = A realistic oil painting of a {CIV5Eras} {Gender} {CIV5Leader} ({Descriptor}:1.2), standing in a {CIV5Backgrounds} background
 			PromptSuffix = (detailed) (8k) (HDR) (sharp focus), good eyes, good hands, good legs, symmetric face, intricate, cinematic lighting, realistic
 		}
 		
@@ -341,7 +352,7 @@ Start:
 		If (Type = "Scenes")
 		{
 			MainPrompt = {Descriptor}
-			PromptSuffix = (detailed) (8k) (HDR), intricate, closeup, macro, wallpaper
+			PromptSuffix = (detailed) (8k) (HDR) (sharp focus), photoshoot style, intricate, cinematic lighting, realistic
 		}
 		
 		if PromptGender = 1
@@ -416,6 +427,7 @@ Start:
 		IniWrite, %CurrentTab%, %GenSettings%, Tabs, CurrentTab
 		IniWrite, %Race%, %GenSettings%, Tabs, Tab%CurrentTab%_Race
 		IniWrite, %Gender%, %GenSettings%, Tabs, Tab%CurrentTab%_Gender
+		IniWrite, %Color%, %GenSettings%, Tabs, Tab%CurrentTab%_Color
 		IniWrite, %SubType%, %GenSettings%, Tabs, Tab%CurrentTab%_Sub
 		IniWrite, %SkinColor%, %GenSettings%, Tabs, Tab%CurrentTab%_Skin
 		IniWrite, %Type%, %GenSettings%, Tabs, Tab%CurrentTab%_Type
@@ -426,32 +438,32 @@ Start:
 		IniRead, TabNext_Race, %GenSettings%, Tabs, Tab%TabNext%_Race
 	}
 	
-	;Sana_UI:
-	;{
-	;	WinActivate, Sana
-	;	WinWait, Sana
-	;	Send {Home}
-	;	
-	;	If (Location = "Home")	;Prompt
-	;		Mouseclick, left, 916, 398
-	;	If (Location = "Away")
-	;		Mouseclick, left, 671, 330
-	;	If (Location = "Tablet")
-	;		Mouseclick, left, 637, 367
-	;		
-	;	Sleep 50
-	;	Send %C_d%a%C_u%
-	;	Sleep 50
-	;	Send %Paste%{Home}
-	;	
-	;	If (Location = "Home")	;Run
-	;		MouseMove, 1575, 395
-	;	If (Location = "Away")
-	;		MouseMove, 1193, 334
-	;	If (Location = "Tablet")
-	;		MouseMove, 1193, 370	
-	;	;Msgbox %Race%`n`n%Output%
-	;}
+	Sana_UI:
+	{
+		WinActivate, Sana
+		WinWait, Sana
+		Send {Home}
+		
+		If (Location = "Home")	;Prompt
+			Mouseclick, left, 916, 398
+		If (Location = "Away")
+			Mouseclick, left, 671, 330
+		If (Location = "Tablet")
+			Mouseclick, left, 637, 367
+			
+		Sleep 50
+		Send %C_d%a%C_u%
+		Sleep 50
+		Send %Paste%{Home}
+		
+		If (Location = "Home")	;Run
+			MouseMove, 1575, 395
+		If (Location = "Away")
+			MouseMove, 1193, 334
+		If (Location = "Tablet")
+			MouseMove, 1193, 370	
+		;Msgbox %Race%`n`n%Output%
+	}
 	
 	GenGUI:
 	{	
@@ -515,7 +527,9 @@ Start:
 				CheckFolder = %Beast_SaveDir%\*
 			}
 			If (Type = "Item") || If (Type = "Items")
+			{
 				CheckFolder = %Items_SaveDir%\%SuffixDir%
+			}
 			If (Type = "Scene")
 				CheckFolder = %Scenes_SaveDir%\%Type%\%Race%
 
@@ -921,14 +935,11 @@ FindMatchInList(List, File)
 SaveFileName(TabNo)
 {
 	global
-	Tabname := ""
-	TabGender := ""
-	TabSubType := ""
-	TabSkin := ""
-	SuffixDir := ""
+	Tabname:="", TabColor:="", TabGender:="", TabSubType:="", TabSkin:="", SuffixDir:=""
 	
 	IniRead, Tabname, %GenSettings%, Tabs, Tab%TabNo%_Race
 	IniRead, TabGender, %GenSettings%, Tabs, Tab%TabNo%_Gender
+	IniRead, TabColor, %GenSettings%, Tabs, Tab%TabNo%_Color
 	IniRead, TabSubType, %GenSettings%, Tabs, Tab%TabNo%_Sub
 	IniRead, TabSkin, %GenSettings%, Tabs, Tab%TabNo%_Skin
 	IniRead, Type, %GenSettings%, Tabs, Tab%TabNo%_Type
@@ -981,16 +992,27 @@ SaveFileName(TabNo)
 			FinalSaveDir = %Items_SaveDir%
 		}
 		
-		If (Type = "Scenes")
+		If (Type = "Scenes") || If (Race = "Scenes")
 		{
 			File = %SuffixDir%\%Tabname%-%TabSubType%-%TabSkin%-%Rand%
 			FinalSaveDir = %Scenes_SaveDir%
 		}
-			
-		File := RegExReplace(File, "[0-9.:*?""<>| ]")	;Remove special chars
-		clipFile := FinalSaveDir "\" File	;saves for GUI buttons
 
-		Clipboard := FinalSaveDir "\" File
+		If (GameMode = "CIV55") | If (Type = "Scenes")
+		{
+			File = %Tabname%-%TabColor%-%TabSubType%-%Rand%
+			FinalSaveDir:="", SkipSaveDir:="true"
+			File := RegExReplace(File, "[0-9.:*?""<>| ]")
+			clipFile := File, Clipboard := File
+		}
+		
+		If (SkipSaveDir="false")
+		{
+			File := RegExReplace(File, "[0-9.:*?""<>| ]")	;Remove special chars
+			clipFile := FinalSaveDir "\" File	;saves for GUI buttons
+			Clipboard := FinalSaveDir "\" File
+		}
+
 		Send %Paste%
 		File := ""
 		SkipPress = 0	;Reset press from GUI buttons

@@ -4,8 +4,7 @@ Black
 Black
 Black
 Blonde
-Blue
-Blue
+Blonde
 Brown
 Brown
 Brown
@@ -14,9 +13,6 @@ Brown
 Gray
 Gray
 Gray
-Indigo
-Purple
-Purple
 Red
 Red
 White
