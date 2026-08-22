@@ -1,0 +1,10 @@
+﻿Black
+Blue
+Crimson
+Gray
+Green
+Purple
+Red
+Smoky
+White
+Yellow

@@ -1,3 +1,9 @@
+8-ounce, glass wine bottle that magically reassembles itself 1 minute after being broken
+A bag of {GEM}s
+A bag of {GEM}s
+A bag of {GEM}s
+A bag of {GEM}s
+A bag of {GEM}s
 A ball of speckled {COLOR} fur that appears to be alive
 A bone fragment with brass inlaid runes
 A book that reveals hidden truths  
@@ -9,14 +15,18 @@ A bracer that grants enhanced reflexes
 A brass disk bearing the silhouette of a black dragon
 A bronzewood ring inscribed with the Elvish word for "hope"
 A brooch that deflects magical attacks  
+A cloak pin	Made from enamel in the shape of a butterfly; when you take the pin off, it turns into a real butterfly, and returns when you are ready to put your cloak back on again
 A cloak that enhances the wearer's stealth  
 A cloak that makes the wearer harder to see in shadows  
 A cloak that protects against psychic damage  
 A coin that ensures good luck when flipped  
 A crown made of {MATERIAL} and {GEM}
+A crystal lens	Made of ivory and gold that causes anything observed through it to appear to be surrounded by motes of multicolored light
+A dulcimer [xphb]
 A finger bone inscribed with an unknown sigil
 A flute made of {MATERIAL}	Plays {adj}
 A foot-long, egg-shaped object	Made from stitched {color} leather
+A giant goose egg	{Table-GooseEggTrinket}
 A gold crown with a large {GEM} encrusted in the center
 A horn that can summon a gust of wind  
 A horn that summons a spectral steed  
@@ -36,7 +46,9 @@ A necklace that enhances wisdom
 A necklace that grants limited control over plants  
 A pair of handcuffs	Inscribed near the keyhole is a strange Arcanic symbol.
 A pendant that lets the wearer speak any language  
+A perfume that smells of {FRUIT}
 A pierced {COLOR} dragonscale on a cord
+A puzzle box bedecked with amber
 A quill that writes by itself  
 A ring and a map	The ring can be used to track the location of its wearer
 A ring that allows control over small amounts of water  
@@ -51,14 +63,19 @@ A shield that heals the wearer slightly when struck
 A single large seed that's warm to the touch
 A small bottle of fairy dust
 A small egg-shaped piece of polished bone
+A small enamel flower	When put in one's hair, animates, tying back the wearer's hair with a living vine with flowers; plucking a single flower from this vine returns it to its inanimate form
+A small golden pyramid	Inscribed with elven symbols and about the size of a walnut
 A small journal made from preserved leaves	Signed {NAME}
+A small songbird	Made of enamel, gold wire, and precious stone; uttering the songbird's name in Elvish causes the trinket to emit that bird's birdsong
 A small supple disk that displays weird moving symbols when placed over either eye
+A spellbook with an unknown spell	{SPELL}
 A spellcaster's staff	Fixated on top is a {COLOR} orb used as a Spellcaster's Focus
 A staff that can summon rain  
 A staff that grants control over shadows  
 A statuette of a dragon carved from black bone
 A stone that absorbs magical energy  
 A Study of Orcs, by Darius Woodherd	A large tome bound in thick bison-hide that is a common-orcish language primer, as well as a primer on orcish culture. The author of the primer, Darius Woodherd, seems to have added a lot of information on orcish heraldry and politics, as well. Darius spent almost twenty years amongst the orcs of the north, and eventually married an orc before being killed a score of years ago in a rival tribe's ambush. 
+A swatch of silvery fur that's cold to the touch, possibly from a winter wolf
 A sword that banishes demons  
 A sword that can cut through stone  
 A sword that vibrates when danger is near  
@@ -73,12 +90,15 @@ A vial of life energy	The soul of an Unknown Sapient. Restores to max HP if inha
 A wand that can repair broken objects  
 A whistle that can mimic the voice of a {BEAST}
 A whistle that can mimic the voice of a {RACE}
+A wooden staff	Adorned with {GEM} and {MATERIAL}. Likely used as a druidic focus. 	Uses Staff statblock +2 bonus damage.
 A {BEAST} heart
 A {COLOR} Alpenhorn
 A {COLOR} locket; when it's opened, an elven voice whispers "Always"
+A {COLOR} {PATTERN} kimono made from {FABRIC}
 A {MATERIAL} harmonica	Tuned to play the traditional notes of {RACE} music
 A {MATERIAL} tiara
 A {MATERIAL}-encrusted fiddle	Plays {adj}
+A {WOOD} wand	Painted {COLOR} with a {EMBLEM} on the hilt
 Adamant Leaf	A large, nearly unbreakable leaf from Tree of Adamant.
 Adjatha the Drinker	This blade belonged to Dabbar, a long dead servant of Bhaal that exercised control over his minions in the most brutal of ways. In addition to strengthening the mind against the guile of others, the sword absorbs life energy from an opponent with each successful hit, healing the user. Dabbar considered it a failure of his officers if he returned from battle in less than perfect health, and as the rest of the company watched, he would administer beatings until fully healed.
 Albruin	Basalin was a large man, rumored, far from his hearing, to be a werebear. He long wielded the bastard sword Albruin in the protection of his village, slaying giant spiders that plagued the area. The sword protected him from their poison and also allowed him to see invisible Red Wizards who controlled some of the more fantastic variants. The reason for their enmity is unknown.
@@ -90,6 +110,7 @@ Amulet that grants immunity to charm
 Amulet that wards against disease  
 An amulet that grants immunity to paralysis  
 An Elvish device that can be used to detect the presense of spirits
+An Elvish longhorn [https://5e.tools/items.html#longhorn_scag]
 An Elvish torchlight	When a hand is circled over the head of the torch it is lit. Mysteriously burns without oil.
 An explosive petard	Used to blast walls or gates. Blasts inward in a 5-foot radius, dealing 4d8 damage to the target.
 An hourglass that can reverse time for a few seconds  
@@ -123,6 +144,7 @@ Bag of Hurling
 Bag of Tricks, Rust	This ordinary rust coloured cloth bag appears to be empty. Reaching inside the bag, however, reveals the presence of a small, fuzzy object. You can use an action to pull the fuzzy object from the bag and throw it up to 20 feet. When the object lands, it transforms into a creature you determine by rolling a d8 and consulting the table that corresponds to the bag's color. The creature vanishes at the next dawn or when it is reduced to 0 hit points. The creature is friendly to you and your companions, and it acts on your turn. You can use a bonus action to command how the creature moves and what action it takes on its next turn, or to give it general orders, such as to attack your enemies. In the absence of such orders, the creature acts in a fashion appropriate to its nature. Once three fuzzy objects have been pulled from the bag, the bag cannot be used again until the next dawn.
 Bag of Tricks, Tan	"This ordinary tan cloth bag appears to be empty. Reaching inside the bag, however, reveals the presence of a small, fuzzy object. You can use an action to pull the fuzzy object from the bag and throw it up to 20 feet. When the object lands, it transforms into a creature you determine by rolling a d8 and consulting the table that corresponds to the bag's color. The creature vanishes at the next dawn or when it is reduced to 0 hit points. The creature is friendly to you and your companions, and it acts on your turn. You can use a bonus action to command how the creature moves and what action it takes on its next turn, or to give it general orders, such as to attack your enemies. In the absence of such orders, the creature acts in a fashion appropriate to its nature. Once three fuzzy objects have been pulled from the bag, the bag cannot be used again until the next dawn.
 Banshee Spirit Dagger	"Despite appearing to be a normal dagger, even those not able to recognise the presence of magic can tell that there is something imbued in the unassuming metal hilt and blade.
+Bar of soap that smells like something memorable from your childhood
 Barding armor	Used for a small animal like a dog or cat
 Beast-Training Kit	This kit includes a dandy brush, training harness, training whip, whet bone, and 2 days worth of carnivore feed. The weight of this kit can be reduced by 10 pounds by forgoing the carnivore feed.
 Beautifying Mirror	A mirror that makes you appear more beautiful when you tap your reflection
@@ -174,6 +196,7 @@ Canary Diamond	A diamond of incredible beauty which slowly shifts its color from
 Carlin's Courageous Chickens	These three chickens have been trained to check for traps, unfortunately they are not very good at it. Once released, each chicken will roam a dungeon at 30 feet a round and will walk in the direction of any nearby traps. If there are no nearby traps, they will walk in the direction that the players imagine there to be traps (they are prone to getting caught up in the moment). Each chicken will accidentally set off any trap it is feasible for it to set off and be killed by the trap. The chicken have name tags and are called Dara, Demi and Miki.
 Ceremonial Dagger	This is a ceremonial dagger made of electrum with a black pearl in it's pommel.
 Charged gauntlet	A set of {MATERIAL} gauntlets that stores and discharges kinetic energy involuntarily. On every 3 melee attacks made while the gloves are equipped, deal an additional 1d8 lightning damage.
+Chess piece shaped like a dancing satyr wearing a bishop's hat and clutching a gnarled staff	May come alive when interacted with.
 Chimera's Mantel	This Cloak is woven together from the fur of a lion and goat over the skin of a serpent. It bears the emblem of house Chimera.
 Cinder Glove	A left-handed glove. It remains warm regardless of atmosphere, and is almost painfully hot to be touched with.
 Circlet of Inconsolable Weeping	Cursed. Anything who puts on this circlet is sent into an irreversible state of misery for 1d4 hours.
@@ -185,6 +208,7 @@ Coiling Rope (50 feet)	This rope coils itself after 10 rounds of being uncoiled,
 Coin that answers yes/no questions truthfully  
 Collapsible Rod
 Compass that points to a specific person  
+Copper coin with a smiling satyr's face on one side and a satyr's skull on the other
 Countdown Cutlass	A large sword with jewels that sequentially light up after activation. After the last jewel is lit, the sword will explode!
 Cowardly Blade	A normal, if not well-crafted looking shortsword. There is a sigil of a chicken on the bottom of the pommel.
 Crab Crown	Provides +2 AC when worn, but attracts the attention of crabs, who will come from nearby and cling to the wearer
@@ -192,7 +216,9 @@ Crate of Chaos Mushrooms	This wooden crate is about 60cm by 60cm by 40cm, with '
 Crescent Armor Spikes	A set of Armor Spikes made out of thick, sharp silver. They can be attached to full or half-plate, and behave like normal armor spikes. However, they grow faintly in total darkness - - enough for the wearer to see 5 ft, or for another person to see the wearer from up to 50 ft away.
 Crossbow that never needs reloading  
 Crown that enhances charisma when worn  
+Crystal orb that allows a nonsleeping race who holds it to sleep
 Crystal Prism	Crystal prism (d20 x 10 gp)
+Cube of Force [xdmg]
 Curse Doll	Anything significant that happens to the doll happens to you, beneficial or harmful.
 Cursed Gauntlets	No magic can affect you. The gauntlets can only be removed with Remove Curse.
 Cursed Tarot Cards	Demonic themed tarot/playing cards ' extra planar repercussions based on game played; tarot tales come true
@@ -201,18 +227,25 @@ Dagger that can detect poison
 Dagger that returns when thrown  
 Dehydrated Minotaur Helm	A preserved Minotaur head, old but still retaining most detail. The skin is old and decrepit, yet both the horns have been dipped in molten gold. When donned, this helmet magically causes the wearer to appear as a living minotaur'as well as protecting the wearer against critical hits. The user's stats remain the same, however, and the player only appears to be a minotaur (+4 on intimidate checks).
 Digiridoom	A long, Hollow wooden rod with a narrow opening at one end, and a wider one at the other.
+Diplomat's Pack	A Diplomat's Pack contains the following items: Chest, Fine Clothes, Ink, 5 Ink Pens, Lamp, 2 Map or Scroll Cases, 4 flasks of Oil, 5 sheets of Paper, 5 sheets of Parchment, Perfume, and Tinderbox.
+Disguise Kit	Ability: Charisma	Utilize: Apply makeup (DC 10)	Craft: Costume	If you have proficiency with a tool, add your Proficiency Bonus to any ability check you make that uses the tool. If you have proficiency in a skill that's used with that check, you have Advantage on the check too.
 Disk of Balance	A disk of finely polished stone. On one side, the Elvish rune for death is inscribed in blackest obsidian. Upon the other, the Dwarven rune for life is inscribed in the palest ivory.
 Dowsing Compass	Like a regular compass, except with multiple needles each pointing toward different useful things, such as: north, the nearest source of fresh water, the strongest nearby evil aura, nearest large concentration of gold, nearest civilization (exact definition of civilization may vary by user), and nearest storm. Needles lengthen and shorten as the object gets closer or further away.
 Dowsing Rod	Object of secret door detection/lay out visualization
 Dragon Comb Set	A set of golden combs shapes as dragons, each set with red garnets as the eyes.
 Dragon Scale Tombe	Trained rat in wooden cage ' sniffs out gold in exchange for treats. One trail ration per sniff.
+Dragon's Blood [erlw]
 Dreaming Nightfeather	A long, black feather with violet iridescence. The shaft glows softly white in moonlight.
+Dungeoneer's Pack [xphb]
+Dynamite [tdcsr]
 Ear Dampeners	A set of beads that suppresses your hearing when secreted inside either ear, causing you to be deafened
 Elixir of Madness	Upon taking a single sip of this potion, you are afflicted with some form of madness. Roll 1dOn a 1-3 you are afflicted with a short-term madness (DMG p. 259); on a 4-5 you are afflicted with a long-term madness (DMG p. 260); on a 6 you are afflicted with an indefinite madness.(DMG p. 260). The remainder of the elixir loses its magical properties, becoming merely a foul tasting liquid.
 Embroidered Gloves	An embroidered glove set designed for human sized hands, each with jewel chips.
 Emerald	An Emerald is a brilliant green beryl, cleaved along straight box like lines, with rectangular cutting in the finished gem. Emeralds are often connected with health, and so are used ornamentally for such a purpose.
 equal to or greater than 21, the item has no effect on you."
+Erasing Notebook	A small notebook that causes anything written in it to disappear after 1 hour
 Exceptionally Roguish Hat	"A wide, leather hat, garnished with gold-inlaid thread and exotic bird feathers. Very Vogue.
+Exotic Saddle	A saddle comes with a bit, a bridle, reins, and any other equipment needed to use the saddle. An Exotic Saddle is required for riding an aquatic or a flying mount.
 Extra-Dimensional Flask	Extra dimensional flask ' holds 1 gallon
 Eye Patch	An eye patch with a mock eye set in blue sapphire and moonstone.
 Filligins Uncontrollable Flame	A small wooden box with a silver embossed flame on the lid. Inside is a pipe-shape horn that spouts a tiny flame that can not be snuffed. The box is not flammable.
@@ -220,16 +253,19 @@ Filthy Bucket	A filthy bucket, bolted to the floor, ' full of urine, containing 
 Fire Blanket	A heavy rug that has been kept rolled up. When unrolled, it reveals that the surface of the rug is permanently on fire. When rolled back up the fire disappears.
 Fire Opal	This Fire Opal is a translucent fiery red colour and is set within a broken brooch. It takes no effort to wedge it out.
 Fire Opal Chain	A fine gold chain set with a fire opal.
+Flail [xphb]
 Flail of Flagellation	This imposing, three-headed flail has a +2 bonus to attack and damage rolls. Any creature that takes damage from this flail may immediately make a saving throw against any one ongoing effect that is affecting them.
 Flask that purifies any liquid poured into it  
 Food Pyramid	A simple wire pyramid that preserves any foodstuffs it is placed over
 Forged {REGION} banknotes	Worth {1d100} GP
+Forgery Kit [xphb]
 Frostbite Lilly	A pure white lily that becomes rigid when picked. Its petals are icy cold and shatter like glass if mishandled.
 Gale Boomerang	This oddly-shaped weapon looks like it might be made of roc's feathers, bound together and strengthened by magic. There is a small emerald set in the weapon's vertex amidst gilded furnishings that mark it as a weapon of some distinction.
 Gauntlets that enhance strength for a few minutes  
 Giant Temple Candles	Six giant temple candles. Each is 6' tall, 1' thick, and weighs 100 lbs. They are made of fine white wax, rolled in gold dust, and set with emeralds. (320 gps each)
 Girdle of Femininity/Masculinity	"The cursed Girdle of Femininity and Masculinity, a rare yet oft-discussed magical item, is wrought with a most powerful magic. Anyone unfortunate enough to secure it around their waist instantly finds their gender to be transformed. It is said that not fifty years past, a nameless court jester was beheaded for presenting the girdle as a gift to Duke Lobelahn's lover.
 Glass bottle that fills with fresh water daily  
+Glaur [scag]
 Glove that allows control over weak telekinesis  
 Gloves that allow perfect grip  
 Gloves that allow the wearer to handle fire without injury  
@@ -238,6 +274,8 @@ Gnomish-Riveted Gauntlets	These sturdy, leather gauntlets are embedded with meta
 Gold Circlet	A gold circlet set with four aquamarines.
 Gold Idol	A small gold idol.
 Gold Plated Idols	Gold plated idols ' possession = death penalty
+Golden pendant charm shaped like a leprechaun
+Griffon Egg
 Grog of Substantial Whimsy
 Grounded walrus tusk
 Hammer of Thunderous Power	Thunder Hammer ' deafening or stunned, DC save, 40' radius
@@ -249,13 +287,19 @@ Helm of Unsurvivable Knowledge	A 'God-Helmet' that explained the universe when y
 Helm that grants telepathic communication  
 Helmet that grants night vision  
 Hollow Glass Sphere	A hollow glass sphere of surprising proportions: nearly three meters across. If it is broken those nearby will catch the barest scent of alien perfumes, hinting at strange lands belonging to the ancient time when the sphere was first forged and air trapped within it.
+Horror Trinket	{Table-HorrorTrinket}
 Hyperstone	Once per day this item grants one extra attack for it's user.
+Icewind Dale Trinket	{Table-IcewindDaleTrinket}
 If you aren't a dwarf, you gain the following additional benefits while wearing the belt: You have advantage on saving throws against poison, and you have resistance against poison damage. You have darkvision out to a range of 60 feet. You can speak, read, and write Dwarvish. "
 In addition, while attuned to the belt, you have a 50 percent chance each day at dawn of growing a full beard if you're capable of growing one, or a visibly thicker beard if you already have one.
 Insanity Blade
+Iron Ball [https://5e.tools/adventure.html#IDRotF,17,chain%20lightning,0]
 Iron Key Cylinder	A small thumb-button storage cylinder that releases an iron key when pressed
 Javelin of Explosions	5x range, normal range 5x dmg, 2xs range = 4xs dmg, 3xs range = 3xs dmg, etc' - explodes & destroyed after use except at 5xs or 4xs range
 Jeweled Anklet	A jeweled anklet.
+Jeweler's Tools [xphb]
+Keg Of Alchemist's Fire [lox]
+Khyber Trinket {Table-KhyberTrinket}
 Lantern that never runs out of oil  
 Lifeforce Amulet	Displays a creature's HP as a green bar, with the bar retracting as their HP decreases
 Lost Diamond	A sizeable cut diamond with bluish tint.
@@ -264,28 +308,40 @@ Magmatic Elixir	A viscous potion in a clear glass bottle. It is uncomfortably ho
 Magnetic Grappling Hook	Self-guided grappling hook - +10 to ranged attack roll for aiming
 Malluf's Not-Quite-Full, Not-Quite-Empty Quiver	 Near-Empty-Ever-Full One Arrow Quiver ' always only 1 arrow, will reappear after being shot.
 Mantle Set	An embroidered silk and velvet mantle set with numerous moonstones. 
+Mask that helps you remember your dreams if you wear it while you sleep
 Masterpiece Painting	An old painting, a lot treasure by a painter of some renoun.
+Matchless Pipe	A switch made of flint is built into the bowl of this fine wooden smoking pipe. With a few flicks of the switch, the pipe lights itself.
 Metal Puzzle	A metal mechanical puzzle with no apparent solution
 Metal spin top	A metal spinning top that never tips over when spun
 Mirror that reveals invisible creatures  
 Mongrel Collar	A black leather collar, stiff from wear and riddled with bite marks.
+Monster Hunter's Pack [vrgr]
 Mr. Hammer's Crazy Staff	A staff that could change into a hammer and give him extra strength while it was in that mode.
+Murgaxor's Elixir of Life	Whoever drinks this concoction gains advantage on death saving throws for 24 hours.
+Muroosa Balm	This paste made from the muroosa bush is known to help prevent sunburn, but it is also a fire retardant. After spending 1 minute applying a quarter pint of muroosa balm to your skin, you gain resistance against fire damage for 1 hour.	A dose of muroosa balm sufficient for treating sunburn costs 1 gp.
 Music Box	An ornate golden music box.
+Narycrash [dsotdq]
 Navigational Calculator	A gear-driven ships navigational calculator enclosed in a jewelwood box.
 Necklace that heals minor wounds  
 Necromancer's Saddle	Black leather saddle with streaks of red through the leather itself. A small amount of black smoke emanates from the saddle when it is holding still.
 New Year's Sword	The silver hilt of a sword with a grip of black leather. The blade is missing, or never existed to begin with. One night per year, however, on the eve of the new year, the hilt is possessed of a ghostly blade ' allowing it to perform its duties as a sword once more.
 Nightmare Pipeweed	A common looking pipeweed, which smells only a little sweeter than the most common varieties. Close inspection reveals occasional black burrs mixed among the leaves.
+Nimbewright Detector [wdh]
+Notebook that shows what's written on it only when held upside down
 Obsidian Charm	A charm of twisted black obsidian. Touching the charm unleashes strange, ghostly visions from a strange and alien world ' utterly different in every particular, but eerily similar to our own world in its broad scope and form.
 Obsidian Statuette	An obsidian statuette of a demon with a golden inlay and fittings.
 Olivewood Staff	A very heavy, hard staff engrained with beautiful swirling, natural patterns across the wood. It has a large diameter and is slightly tapered to be thicker at one end. It can be used like a normal quarterstaff, except at 1d8 damage. However, in the hands of a Druid or a 5th-level Ranger, the staff's thicker tip can be lit at-will like a Sunrod of any color. The wielder is also capable of easily distinguishing any non-natural (magical) trees, and can speak Entish (so long as they could already speak Elvish).
+Oloore Root Teabag	[tdcsr]
 Opal	A translucent pale blue Opal with green and golden mottling.
 Orb that shows the nearest magical object  
 Ornate Longsword	This longsword seems to have been made more for show than for use. It is silver-plated steel and has a jet gemstone set inside the hilt.
 Outdated Book of Prophecies	A small, leather-bound book filled with prophecies. All of them will be found to be true, but the last of them is dated just a few weeks ago.
 Owlbear Costume	An owlbear costume. Gives the wearer a +10 to disguise when attempting to disguise as an Owlbear.
 Oxygen Reader	A handheld device containing a glowing green gem that darkens when no oxygen is present
+Painted wooden key whose teeth change configuration every day at dawn
 Painter's Supplies [xphb]
+Painter's Tools [xphb]
+Pair of green leprechaun boots tied together by their laces
 Pearl Necklace	A necklace string of small pink pearls.
 Pendant that allows the wearer to see through illusions  
 Pendant that grants resistance to cold  
@@ -295,6 +351,8 @@ Philter of Blave	A viscous, golden liquid inside of a corked glass vial.
 Phoenix Choker	Ash of phoenix in necklace choker ' instant revive to wearer (takes 10 rounds/1 minute)
 Phoenix Restorative Potion	Potion 3: Phoenix Restorative. The next time the drinker is reduced to 0 hit points, they deal area fire damage, and return to full health, only happens once. The player has no special knowledge this is true, but the flavor of the draught burns their throat but leaves them feeling oddly optimistic. Fire damage dealt should be based on circumstance, but if you can get away with lots, it'd be the most fun.
 Platinum Bracelet	A platinum bracelet set with a sapphire.
+Poisoner's Kit	[xphb]
+Portable Ram [xphb]
 Potion of Extra Health	A foul smelling liquid that shifts between bright red and burgundy as it swirls around it's flask.
 Potion of Purple Ooze	A potion vial containing a purple concoction, labelled simply "Ooze". The bubbling, slimy fluid is dark purple with emerald accretions on the side. It smells like butyric acid (vomit) and tastes worse.
 Pouch of Healing Potions	A large carry pouch made from the skin of a monkey. Inside are 1d6 Potions of Superior Healing. 
@@ -312,21 +370,34 @@ Ring that allows the wearer to breathe underwater
 Ring that grants brief invisibility once per day  
 Ring that protects against curses  
 Ring that resists mind control  
+Rock that floats and is small enough to hide in your closed fist
 Rod of Rulership	You can use an action to present the rod and command obedience from each creature of your choice that you can see within 120 feet of you. Each target must succeed on a DC 15 Wisdom saving throw or be charmed by you for 8 hours. While charmed in this way, the creature regards you as its trusted leader. If harmed by you or your companions, or commanded to do something contrary to its nature, a target ceases to be charmed in this way. The rod can't be used again until the next dawn.
+Rotten ogre's tooth with the Elvish glyph for "moon" etched into it
 Rust-Dust Bomb	Rust-dust Bomb ' metallic eating dust
+Ryath Root	Any creature that ingests a ryath root gains 2d4 temporary hit points. A creature that consumes more than one ryath root in a 24-hour period must succeed on a DC 13 Constitution saving throw or suffer the poisoned condition for 1 hour.
+Saltshaker shaped like a wizard's tower
 Scroll of Cursed Gibberish	Without a successful Arcana check of 25, this scroll appears to be a Scroll of Comprehend Language. When used, however a DC save must be made or the user will be unable to speak anything but gibberish for 1d20 days.
 Scroll of Summon Moose	Summons a moose.
 Self-Incinerating Pellets	extra planar/dimensional transport/escape to pocket dimension with scrying/teleportation stone/orb
 Shadoweave Armor	Shadoweave armor is woven with darkness imbued into its silk. +6 armor +6 max bonus
+Shawm [xphb]
+Sheet of music that goblins find upsetting when they hear it played or sung
 Shield of Bashing	A tough metal shield with a large stud in the center.
 Shield that can block magic for a short time  
 Shield that glows when an enemy is near  
 Shield that reflects magic back at the caster  
+Signal Whistle [xphb]
 Silver and Gold Brooch	A simple but finely made silver and gold brooch.
 Silver Chalice	A silver chalice set with moonstones.
 Silver Platter of Feathers	A light silver platter, 6 inches in diameter, etched with ornate feathers.
+Silvered pinecone
+Sleep Grenade [qftis]
+Songhorn [scag]
+Soothsalts [egw]
 Spear of the Hunter
 Spire of the Manticore	"You gain a +1 bonus to attack and damage rolls with this magical weapon, and it deals an additional 1d8 poison damage. The damage increases by 1d8 if the target is a Monstrosity or Beast.
+Spool of glistening silver thread
+Sprite's skull covered in ink fingerprints
 Staff that can heal minor injuries  
 Staff that can summon a weak thunderstorm  
 Staff that controls a small flame  
@@ -334,6 +405,7 @@ Star of Morning's Glory	This Morningstar is made of solid wrought steel, with a 
 Star Ruby	A translucent ruby with a white star-shaped center.
 Star Sapphire	Star Sapphire is a precious variation of the sapphire, however is more translucent, with a white star highlighted in its center. A star sapphire has been known to ornament devices which protect against magic.
 Sting	Monster presence detecting weapon (Hobbit ' Sting, Orcs/Goblins)
+Stink Bomb [tdcsr]
 Stone that lets the holder detect secret doors  
 Stones of Ruin	A simple leather pouch filled with 4 small runestones.
 Sun Gem	"This round and polished stone glows with a fierce light and seems to dispel the shadows around you.
@@ -342,19 +414,29 @@ Sword that bursts into flame when drawn
 Sword that drains the life force of enemies  
 Sword that glows in the presence of undead  
 Sword that speaks to its wielder telepathically  
+Tangler Grenade [wdmm]
 Telescoping Glaive	This is a magical Glaive, with an ornately decorated shaft made of solid (but light) steel. The blade is made of silver, and floats near the end unattached to the shaft. Three keywords act on this weapon: anda, sinta, and pahta (long, short, and closed, in Elven). Anda is the longest extent, and the weapon acts as a two-handed glaive. Sinta makes the weapon shorten and behave as a one-handed axe, and pahta shortens the weapon to throwing-axe size. The blade also changes shape and position to fit these weapon styles.
+The amputated hands of a {BEAST} with flensing claws
 The Clegane Bowl	This large basin has bloodstains permanently ingrained in it. Any liquid placed in the Clegane Bowl immediately turns into Potion of Greater Hype. When consumed, a dose of this potion doubles the Strength score of the user for 1 hour, up to a maximum of 30 Strength.
 The eye of a {beast}
 The Iron Thorn	This wrought-iron band is pitted and stained as if by acid. Between the two thorns formed by the band, a crude lump of silver on its head suggests the image of a skull against a black field, perhaps the symbol of Myrkul, Lord of Bones.
 The Patient Man's Key Ring
 The spinal column of a {BEAST}
+Thieves' Tools [xphb]
+Tinker's Tools [xphb]
+Tiny duskwood coffin containing the ashes of a troll
+Tiny wooden box containing a croquet set sized for pixies or sprites
+Tocken [scag]
 Tome of Alchemy	A large tome, bound in leather and clasped with gold. A closer inspection of this volume will reveal that each page is perfectly preserved dragon scale which has been inscribed with the black blood of a fiend. The book describes the four spirits (quicksilver, orpiment, sal ammoniac, sulfur) and seven bodies (gold, silver, iron, quicksilver, lead, tin, copper) of traditional alchemy.
+Tome of Strahd	The Tome of Strahd is an ancient work penned by Strahd, a tragic tale of how he came to his fallen state. The book is bound in a thick leather cover with steel hinges and fastenings. The pages are of parchment and very brittle. Most of the book is written in the curious shorthand that only Strahd employs. Stains and age have made most of the work illegible, but several paragraphs remain intact.
 Topaz	A yellow facet cut Topaz gemstone.
 Tracking Dagger
 Uncut Diamond	An uncut chunk of raw diamond. It is easily the size of a dwarf's fist and is likely worth a substantial sum to the right jewel maker.
 Undead Knife	Knife of a god of undeath. It turned whoever owned it immediately undead.
 until the next dawn. The bowl is about 1 foot in diameter and half as deep. It weighs 3 pounds and holds about 3 gallons.
 Urn of Shadows	Urn of shadows-starts with no charges, user can grant allies 10HP, or deal 10 damage to enemies. gains additional uses for every 2 creatures that die within 40ft radius of holder
+Vial Of Stardust [wdmm]
+Viol [xphb]
 Volcanic rock
 Wand of Arcane Errata	A wand with runic inscriptions that have been scratched out and rewritten several times
 Wand of Prestidigitation	A black and white painted Oakwood wand, with card suits painted down the length of the wand beyond the handle.
@@ -364,7 +446,10 @@ War Mask	This mask has been painted gold and appears to be a ceremonial mask wor
 Welcome Box	A box that plays an illusory message in an unknown language when opened
 Wellwizard's Teacups	A pair of elegantly decorated teacups that always feel warm to the touch. If filled with any liquid, it will somehow seep through invisible cracks in the cup.
 Whispering Bauble	A glass orb with a small slit opening, braced by fine grey metal.
+Whistle-Stick [oga]
+Willowshade Oil [egw]
 Worldly Tortoise	A small tortoise (STR 2, DEX 1, WIL 6, 1hp, Armour 1) that knows the way to anywhere you ask, but gets there very slowly. 
+Yarting [scag]
 Yellow Sapphire	A transparent fiery yellow or yellow' green Sapphire.
 {1d20} Ammunition +2	You have a bonus to attack and damage rolls made with this piece of magic ammunition. The bonus is determined by the rarity of the ammunition. Once it hit a target, the ammunition is no longer magical. Value listed is for individual units.
 {1d2} walrus tusks
@@ -379,95 +464,11 @@ Yellow Sapphire	A transparent fiery yellow or yellow' green Sapphire.
 {1d4} {color} elixirs	Labeled: {effect}
 {1d6} Beads of Force	This small black sphere measures 3/4 of an inch in diameter and weighs an ounce. You can use an action to throw the bead up to 60 feet. The bead explodes on impact and is destroyed. Each creature within a 10-foot radius of where the bead landed must succeed on a DC 15 Dexterity saving throw or take 5d4 force damage. A sphere of transparent force then encloses the area for 1 minute. Any creature that failed the save and is completely within the area is trapped inside this sphere. Creatures that succeeded on the save, or are partially within the area, are pushed away from the center of the sphere until they are no longer inside it. Only breathable air can pass through the sphere's wall. No attack or other effect can. An enclosed creature can use its action to push against the sphere's wall, moving the sphere up to half the creature's walking speed. The sphere can be picked up, and it's magic causes it to weigh only 1 pound, regardless of the weight of creatures inside. 
 {1d8} lbs of whale blubber
-Diplomat's Pack	A Diplomat's Pack contains the following items: Chest, Fine Clothes, Ink, 5 Ink Pens, Lamp, 2 Map or Scroll Cases, 4 flasks of Oil, 5 sheets of Paper, 5 sheets of Parchment, Perfume, and Tinderbox.
-Disguise Kit	Ability: Charisma	Utilize: Apply makeup (DC 10)	Craft: Costume	If you have proficiency with a tool, add your Proficiency Bonus to any ability check you make that uses the tool. If you have proficiency in a skill that's used with that check, you have Advantage on the check too.
-Dragon's Blood [erlw]
-Jeweler's Tools [xphb]
-Painter's Tools [xphb]
-A wooden staff	Adorned with {GEM} and {MATERIAL}. Likely used as a druidic focus. 	Uses Staff statblock +2 bonus damage.
-A dulcimer [xphb]
-Dungeoneer's Pack [xphb]
-Dynamite [tdcsr]
-Erasing Notebook	A small notebook that causes anything written in it to disappear after 1 hour
-A crystal lens	Made of ivory and gold that causes anything observed through it to appear to be surrounded by motes of multicolored light
-A small golden pyramid	Inscribed with elven symbols and about the size of a walnut
-A cloak pin	Made from enamel in the shape of a butterfly; when you take the pin off, it turns into a real butterfly, and returns when you are ready to put your cloak back on again
-A small songbird	Made of enamel, gold wire, and precious stone; uttering the songbird's name in Elvish causes the trinket to emit that bird's birdsong
-A small enamel flower	When put in one's hair, animates, tying back the wearer's hair with a living vine with flowers; plucking a single flower from this vine returns it to its inanimate form
-Exotic Saddle	A saddle comes with a bit, a bridle, reins, and any other equipment needed to use the saddle. An Exotic Saddle is required for riding an aquatic or a flying mount.
-Painted wooden key whose teeth change configuration every day at dawn
-Golden pendant charm shaped like a leprechaun
-Tiny wooden box containing a croquet set sized for pixies or sprites
-Chess piece shaped like a dancing satyr wearing a bishop's hat and clutching a gnarled staff	May come alive when interacted with.
-Saltshaker shaped like a wizard's tower
-Crystal orb that allows a nonsleeping race who holds it to sleep
-Spool of glistening silver thread
-Sheet of music that goblins find upsetting when they hear it played or sung
-Rotten ogre's tooth with the Elvish glyph for "moon" etched into it
-Tiny duskwood coffin containing the ashes of a troll
-Sprite's skull covered in ink fingerprints
-Rock that floats and is small enough to hide in your closed fist
-8-ounce, glass wine bottle that magically reassembles itself 1 minute after being broken
-Bar of soap that smells like something memorable from your childhood
-Pair of green leprechaun boots tied together by their laces
-Mask that helps you remember your dreams if you wear it while you sleep
-Notebook that shows what's written on it only when held upside down
-Silvered pinecone
-Copper coin with a smiling satyr's face on one side and a satyr's skull on the other
-Flail [xphb]
-The amputated hands of a {BEAST} with flensing claws
-Forgery Kit [xphb]
-A swatch of silvery fur that's cold to the touch, possibly from a winter wolf
-Glaur [scag]
-A giant goose egg	{Table-GooseEggTrinket}
-Griffon Egg
-Horror Trinket	{Table-HorrorTrinket}
-Icewind Dale Trinket	{Table-IcewindDaleTrinket}
-Iron Ball [https://5e.tools/adventure.html#IDRotF,17,chain%20lightning,0]
-Keg Of Alchemist's Fire [lox]
-Khyber Trinket {Table-KhyberTrinket}
-An Elvish longhorn [https://5e.tools/items.html#longhorn_scag]
-A puzzle box bedecked with amber
-Matchless Pipe	A switch made of flint is built into the bowl of this fine wooden smoking pipe. With a few flicks of the switch, the pipe lights itself.
-Monster Hunter's Pack [vrgr]
+{COLOR} licorice
 {Table-MournlandTrinket}
-Murgaxor's Elixir of Life	Whoever drinks this concoction gains advantage on death saving throws for 24 hours.
-Muroosa Balm	This paste made from the muroosa bush is known to help prevent sunburn, but it is also a fire retardant. After spending 1 minute applying a quarter pint of muroosa balm to your skin, you gain resistance against fire damage for 1 hour.	A dose of muroosa balm sufficient for treating sunburn costs 1 gp.
-Narycrash [dsotdq]
-Nimbewright Detector [wdh]
-Oloore Root Teabag	[tdcsr]
 {Table-PlanarPhilosopherTrinket}
-Poisoner's Kit	[xphb]
-Portable Ram [xphb]
-Ryath Root	Any creature that ingests a ryath root gains 2d4 temporary hit points. A creature that consumes more than one ryath root in a 24-hour period must succeed on a DC 13 Constitution saving throw or suffer the poisoned condition for 1 hour.
 {Table-SarlonaTrinket}
 {Table-SecondhandStealTrinket}
-Shawm [xphb]
-Signal Whistle [xphb]
 {Table-SilverquillTrinket}
-Sleep Grenade [qftis]
-Songhorn [scag]
-Soothsalts [egw]
-A spellbook with an unknown spell	{SPELL}
-Stink Bomb [tdcsr]
-Tangler Grenade [wdmm]
-Thieves' Tools [xphb]
-Tinker's Tools [xphb]
-Tocken [scag]
-Tome of Strahd	The Tome of Strahd is an ancient work penned by Strahd, a tragic tale of how he came to his fallen state. The book is bound in a thick leather cover with steel hinges and fastenings. The pages are of parchment and very brittle. Most of the book is written in the curious shorthand that only Strahd employs. Stains and age have made most of the work illegible, but several paragraphs remain intact.
-Vial Of Stardust [wdmm]
-Viol [xphb]
-A {WOOD} wand	Painted {COLOR} with a {EMBLEM} on the hilt
-Whistle-Stick [oga]
-Willowshade Oil [egw]
 {Table-WitherbloomTrinket}
 {Table-Xen'drikTrinket}
-Yarting [scag]
-A bag of {GEM}s
-A bag of {GEM}s
-A bag of {GEM}s
-A bag of {GEM}s
-A bag of {GEM}s
-A {COLOR} {PATTERN} kimono made from {FABRIC}
-{COLOR} licorice
-A perfume that smells of {FRUIT}

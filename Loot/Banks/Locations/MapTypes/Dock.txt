@@ -1,0 +1,12 @@
+Admin booth	10
+Boats	40
+Supply room	10
+Worker's quarters	10
+
+Generate mapsize 16x16
+Rooms segmented by [ MapType ]
+-- Straight
+| Vertical
+
+---[   Admin Booth    ]
+-[         ] ---- | ---

@@ -16,6 +16,6 @@ Kor = elf surnames
 Simic = elven, human, vedalken
 Tiefling = Human surnames
 Troll = nickname surnames
-Ursine = Russian names
+Ursine = Slavic names
 Warlock = sorcerer/martial energy
 Wizard = magic with spellcasting focus

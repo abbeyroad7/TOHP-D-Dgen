@@ -1,15 +1,15 @@
-Version = v3.5.2
+Version = v3.5.3
 ;sampling=40 cfg=6
 
 ;# Todo
 ;Suggested alternative name buttons
 ;Loot piles - script to move images to Session folder for piles
-;Hover over tooltips for commercial release
 ;sfw words
-;CIV5 prompting - leader qualities, backgrounds, props, eras, ages, disable items/beasts
 
-;# Commercialize
+;# Public release
+;Default local paths
 ;Ini setting for first startup, ask user to set paths
+;Hover over tooltips for commercial release
 
 ;Item diversity
 ;Two-headed trolls, cyclops
@@ -33,9 +33,9 @@ Import:
 	
 	Vars:
 	{		
-		GameMode = CIV5	;D&D or CIV5
+		GameMode = DND	;DND or CIV5
 		
-		If (GameMode = "DND") || If (GameMode = "D&D")
+		If (GameMode = "DND")
 			SaveDir = K:\Documents\Foundry\Data\moulinette\tiles\custom\TOHP\Tokens\Homebrew
 		If (GameMode = "CIV5")
 			SaveDir = E:\Documents\My Games\Sid Meier's Civilization V\MODS\Mods\RandomLeaders\Art
@@ -258,6 +258,8 @@ Start:
 		Background:
 		{
 			IniRead, Background, %RaceDir%\RaceSettings.ini, General, Background
+			If (Type = "Item") || If (Type = "Items")
+				Background = black gradient background
 			If (Background = "ERROR")
 			{
 				IniRead, BackgroundFile, %RaceDir%\RaceSettings.ini, General, BackgroundFile
@@ -267,8 +269,6 @@ Start:
 						BGIni = %NPCDir%\OutdoorBackgrounds.ini
 					Else
 						BGIni = %NPCDir%\Backgrounds.ini
-					If (Type = "Item")
-						Background = black gradient background
 				}
 				Else
 					BGIni = %NPCDir%\%BackgroundFile%.ini
@@ -965,8 +965,8 @@ SaveFileName(TabNo)
 		Rand := % rand(5)
 		
 		File = %Tabname%\%TabGender%\%Tabname%-%TabGender%-%Rand%
-		;FinalSaveDir = %Sapient_SaveDir%
-		FinalSaveDir = E:\Documents\My Games\Sid Meier's Civilization V\MODS\Mods\RandomLeaders\Art\Diplo
+		FinalSaveDir = %Sapient_SaveDir%
+		;FinalSaveDir = E:\Documents\My Games\Sid Meier's Civilization V\MODS\Mods\RandomLeaders\Art\Diplo
 		SubType := RegExReplace(SubType, "[0-9.()/\\:*?""<>|]")
 		;Msgbox %Race%
 		

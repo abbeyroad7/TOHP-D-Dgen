@@ -1,0 +1,21 @@
+[Common]	20
+[Rare]	5
+Alcohol 10
+Anchor	5
+Boots	5
+Cannonballs	5
+Clothing	10
+Compass	5
+Fish	5
+Flag	5
+Food rations	20
+GP	10
+Hammer	5
+Journal entries	10
+Keys	10
+Map	10
+Playing cards	5
+Rope	10
+Tarp	10
+Telescope	5
+Wood plank	5

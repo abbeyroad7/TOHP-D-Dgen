@@ -1,0 +1,101 @@
+Acid Splash	CON13	1d8 acid.
+Acid Spray	DEX15	2d4 acid.
+Acid Spray Eruption	DEX15	2d4 acid.
+Arrow Barrage	DEX12	1d8 piercing.
+Arrow Trap	DEX12	1d8 piercing.
+Blade Pendulum	DEX14	2d6 slashing.
+Blade Pendulum Storm	DEX14	2d6 slashing.
+Blade Sweep	DEX12	1d6 slashing.
+Blade Trap	DEX12	1d6 slashing.
+Blazing Glyph	DEX16	3d6 fire.
+Blinding Dust Cloud	DEX12	Be blinded until the end of your next turn.
+Blinding Flash	CON13	Be blinded until the end of your next turn.
+Blowdart Trap	DEX11	1d4 piercing.
+Boulder Roll	DEX14	2d6 bludgeoning.
+Caltrops	DEX10	1d4 piercing.
+Cave Gas Cloud	DEX13	1d6 poison.
+Cave Gas Leak	CON12	1d6 poison.
+Cave Gas Leak	CON12	1d6 poison.
+Cave Gas Vent	DEX12	1d6 poison.
+Cave-In	STR16	2d8 bludgeoning.
+Cave-In Rumble	STR15	1d8 bludgeoning.
+Chained Door Slam	STR13	2d6 bludgeoning.
+Chopping Blades	DEX15	2d6 slashing.
+Collapsing Bridge	DEX14	Fall prone, 1d6 bludgeoning.
+Collapsing Floor	DEX14	Fall prone, 1d6 bludgeoning.
+Collapsing Statue	DEX14	2d6 bludgeoning
+Concealed Pit	DEX14	1d6 falling.
+Constricting Vines	STR13	Become restrained.
+Dart Eruption	DEX14	2d4 piercing.
+Dart Launcher	DEX14	1d8 piercing.
+Dart Storm	DEX15	2d6 piercing.
+Electric Shock	DEX15	2d4 lightning.
+Explosive Barrel	DEX16	3d6 fire.
+Explosive Glyph	DEX16	3d6 force.
+Explosive Rune	INT16	3d6 force.
+Falling Debris	DEX14	2d6 blodgeoning.
+Falling Net	DEX12	Become restrained.
+Falling Net Snare	DEX12	Become restrained.
+Falling Net Trap	DEX13	Become restrained.
+Falling Rocks	DEX12	1d6 bludgeoning.
+Falling Rocks	DEX15	2d6 bludgeoning.
+Falling Spikes	DEX16	2d8 piercing.
+Falling Stones	DEX12	1d6 bludgeoning.
+Fire Burst	DEX15	1d8 fire.
+Fire Burst Glyph	DEX16	3d6 fire.
+Fire Jet	DEX16	3d6 fire.
+Fire Trap	DEX13	1d8 fire.
+Flame Jets	DEX14	2d6 fire.
+Flame Trap	DEX15	1d8 fire.
+Flashbang	CON12	Be blinded+deafened until the end of your next tura.
+Frozen Floor	DEX12	1d6 cold.and be restrained.
+Gas Cloud Eruption	CON13	1d6 poison.
+Gas Eruption	DEX14	2d4 fire.
+Gas Explosive	DEX14	2d4 fire.
+Glue Trap	STR16	Become restrained. 1d6 slashing damage for every attempt to break free unless safely cut down.
+Guillotine Blade	DEX14	2d8 slashing.
+Hidden Blade	DEX12	1d6 slashing.
+Needle Dart Trap	DEX12	1d6 piercing.
+Needle Spray	DEX13	1d6 piercing.
+Net Launcher	CON13	Become restrained.
+Net Snare	DEX12	Become restrained.
+Pendulum Blades	DEX14	2d6 slashing.
+Pitfall	DEX15	2d6 falling.
+Pitfall Spikes	DEX15	1d6 falling. 2d4 piercing.
+Poison Gas Vent	CON15	1d8 poison.
+Poisoned Needle Dart	DEX11	1d4 poison
+Pressure Plate Acid Spray	DEX15	2d4 acid
+Pressure Plate Poison Dart	DEX13	1d4 poison.
+Pressure Plate Spikes	DEX14	2d4 piercing.
+Rising Water	STR15	Be pushed back and take 1d4 bludgeoning.
+Rope Bridge Collapse	DEX15	1d6 falling.
+Rope Bridge Snap	DEX13	Fall prone, 1d6 bludgeoning.
+Scything Blades	DEX14	2d6 slashing.
+Searing Steam Burst	CON15	2d6 fire.
+Shifting Ceiling	DEX15	1d8 bludgeoning.
+Shifting Floor	DEX16	Fall prone.
+Slicing Wire	DEX15	1d10 slashing.
+Spear Trap	DEX15	1d10 piercing.
+Spike Ceiling	CON15	2d6 piercing.
+Spike Floor	DEX16	2d8 piercing damage
+Spike Pit	DEX15	2d6 piercing.
+Spike Wall Swing	DEX14	1d8 piercing.
+Spiked Wall Slide	DEX13	1d8 piercing.
+Spinning Blades	DEX15	1d8 slashing.
+Steam Blast	DEX13	1d6 fire.
+Steam Vent	DEX13	1d6 fire.
+Swinging Blades	DEX15	1d10 slashing.
+Swinging Boulder	DEX16	3d6 bladgeoning.
+Swinging Log	DEX11	1d10 bludgeoning.
+Toxic Fumes	CON13	1d6 poison.
+Toxic Mist	CON14	1d6 poison.
+Tripwire Alarm	DEX12	Trigger a loud alarm.
+Tripwire Darts	DEX12	1d6 piercing.
+Tripwire Firestarter	DEX12	1d6 fire.
+Tripwire Snare	DEX10	Knocked prone.
+Venomous Dart Eruption	DEX14	2d4 poison.
+Venomous Dart Storm	DEX14	2d4 poison.
+Venomous Gas Cloud	CON14	1d6 poison.
+Venomous Needle	CON11	1d4 poison.
+Vibrating Floor	DEX13	Fall prone.
+Web Snare	STR13	Become restrained.

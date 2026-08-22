@@ -1,30 +1,24 @@
-﻿Version = 4.0.4
+﻿Version = 4.3.0
 ;Todo:
 {
-	;Convert level to CR
-	;CR/lvl, WorldSettings, SaveDir, RaceSet, Beasts y/n, SaveOld y/n, Open Editor y/n, Import Foundry y/n, reset save file, save button, resetDate per day y/n (show total iterations in settings), support me/credits
-	;Races
+	;Support me/credits
 	;Output folder
-	;Tooltips, hoverover images
 	;Loot generator
-	;Picker GUI // images of each race + random
 	;Change family dynamics per race, var set for sibling max, etc
-	;When importing to foundry, seperate pics by race
-	;Merge scripts with use of an import library
+	;Incorporate beast generation
 }
 
 Import:
 {
 	#Requires AutoHotkey v1.1+
 	#SingleInstance Force
-	;#Include, %A_ScriptDir%\Libraries\DecodeWebP.ahk
 	#Include, %A_ScriptDir%\Libraries\WebPLib.ahk
 	
 	FileEncoding UTF-8
 	IconChange()
 	FolderVarSet()
 	
-	PlayerCount = 6
+	PlayerCount = 5
 	PlayerLevel = 6
 	ProficiencyBonus = 3	;https://5e.tools/tables.html#proficiency%20bonus_xphb	Lvls 5-8
 	Habitat = Inferno
@@ -39,7 +33,7 @@ Import:
 		Traits_Lines = %A_Index%
 	Loop, Read, %BaseDir%\Loot\Banks\NPC\Quirks.ini
 		Quirks_Lines = %A_Index%
-	
+	SettingsRead()
 	InitializeGUI()
 	Start()
 }
@@ -47,13 +41,14 @@ Import:
 Start()
 {
 	global
-	Race := ""
-	Prompt()
+	;Race:="Human", Gender:="Male"	;Debug
+	SettingsRead()
+	SettingModifiers()
 	NPC()
 	Generate()
 	NamesGUI()
 	UpdateIni()
-	SettingsPage()
+	;SettingsPage()
 return
 }
 ;# ============================================================================ #
@@ -80,12 +75,9 @@ NamesGUI()
 	
 	Gui, GenGUI:Font, s12
 	IniRead, RunCount, %Ini%, Names, RunCount
-	Gui, GenGUI:Add, Text, cGray w20 x1100 y60 BackgroundTrans left, #%RunCount%
+	Gui, GenGUI:Add, Text, cGray w20 x1135 y60 BackgroundTrans left, #%RunCount%
 	Gui, GenGUI:Add, Text, cGray w100 x%Row3% y30 BackgroundTrans right, v%Version%
-	Gui, GenGUI:Add, Text, cGray w100 x%Row3% y70 BackgroundTrans right, %Cho%
 	
-
-
 	;Names
 	N_y:=140, NA_y:=N_y+2
 	N1_x:=640, N2_x:=N1_x+180, N3_x:=N2_x+180
@@ -139,25 +131,16 @@ NamesGUI()
 	Bag_h:=80, Bag_w:=80, Bag_x:=650, Bag_y:=520
 	Gui, GenGUI:Add, Picture, y%Bag_y% x%Bag_x% h%Bag_h% w%Bag_w%, %Bin%\Icons\WhiteMaskShape.png
 	Gui, GenGUI:Add, Picture, y%Bag_y% x%Bag_x% h%Bag_h% w%Bag_w% BackgroundTrans, %Bin%\Icons\Bag.png
-	;Gui, GenGUI:Show, w1200 h620 x650, GenGUI
+	
+	Gui, GenGUI:Add, Picture, y570 x1150 h35 w35 BackgroundTrans gButtonSettings, %Bin%\Icons\Settings.png
+
 	Gui, GenGUI:Show, w1200 h620 x350, GenGUI
 	return
-	;GuiClose:
-	;return
-	;ButtonOK:
-	;{
-	;	Gui, GenGUI:Submit
-	;	WinClose, GenGUI
-	;	If (Launcher = "")
-	;	{
-	;		return
-	;	}
-	;	If (Launcher = "r")		;Debug
-	;	{
-	;		Reload
-	;	}
-	;	return
-	;}
+	ButtonSettings:
+	SettingsPage()
+	;Gui, Settings:Show, w600 h620 x1730, Settings
+	Gui, Settings:Show, w600 h620 x730, Settings
+	return
 }
 ImageGUI()
 {
@@ -170,6 +153,7 @@ ImageGUI()
 		total_file_count := array.maxIndex()
 		random, random_number, 1, % total_file_count
 		random_file := array[random_number]
+		ImgPath := array[random_number]
 		;Clipboard = %random_file%
 		;MsgBox, % random_file
 	}
@@ -249,7 +233,7 @@ GUI_Backgrounds(BGImg)
 		GUI_w:=600, GUI_h:=400
 		Margin_x:=20, Margin_y:=20
 		Margin_w:= GUI_w - (Margin_x * 5), Margin_h:= GUI_h - 20
-		Row1:=650, Row2:=860, Row3:=1070
+		Row1:=650, Row2:=860, Row3:=1070, Row4:=1200
 		Col1:=105, Col2:=135, Col3:=165, Col4:=195, Col5:=225, Col6:=255
 
 		;Icons
@@ -946,14 +930,15 @@ GUI_Backgrounds(BGImg)
 	Gender()
 	{
 		global
-		Random, MF, 1, 2
-		if (MF = "1")
+		If (InStr(Gender, "Any"))
+			Random, MF, 1, 2
+		if (MF = "1") || if (Gender = "M")
 		{
 			Gender = M
 			FullGender = Male
 			ImgDir = %SapientDir%\%Race%\Male
 		}
-		if (MF = "2")
+		if (MF = "2") || if (Gender = "F")
 		{
 			Gender = F
 			FullGender = Female
@@ -963,21 +948,10 @@ GUI_Backgrounds(BGImg)
 	}
 	; ============================================================================ #
 	;# Generate
-	Prompt()
+	SettingModifiers()
 	{
 		global
 		DebugMode := 0, BeastMode := 0
-		;Inputbox, Race,,race M/F,,200,120
-		If InStr(Race, " ")
-		{
-			RaceMF := StrSplit(Race, " ")
-			Race := RaceMF.1
-			Gender := RaceMF.2
-			if (Gender = "male")
-				ImgDir = %SapientDir%\%Race%\Male
-			if (Gender = "female")
-				ImgDir = %SapientDir%\%Race%\Female
-		}
 
 		If InStr(Race, "db")
 		{
@@ -1001,15 +975,16 @@ GUI_Backgrounds(BGImg)
 			Race = Beast
 		}
 
-		If Race =
+		If (InStr(Race, "All"))
 		{
 			Loop, Read, %RaceList%
 				Races_Lines = %A_Index%
 			Random, RacesRnd, 1, Races_Lines
 			FileReadLine, Race, %RaceList%, RacesRnd
 			;Race := "Elemental"	;Debug
+			;Msgbox % Race
 		}
-
+		ImgDir = %SapientDir%\%Race%\%Gender%
 		Gender()
 
 		;Nongendered races // search root folder instead
@@ -1439,28 +1414,16 @@ FoundryImport()
 {
 	global
 	SleepDur = 50
-	ImgPath = %random_file%
-	Msgbox %ImgPath%
-
-	;FoundryImage := StrReplace(random_file, "\", "/")
-	;FoundryImage := StrSplit(FoundryImage, "Data/")
-	;FoundryImage := % FoundryImage.2
+	;ImgPath = %random_file%
+	;Msgbox %ImgPath%
 
 	NPC_Body = <h1>- %NPC_Family%<br><br>- %Traits%<br><br>- %NPC_Goal%<br><br>- Has a %NPC_Quirk%
 	FoundryImage = moulinette/tiles/custom/TOHP/Tokens/NPC/Sapient/%Race%/%FullGender%/%FoundryName%.webp
-
-	;SetTitleMatchMode, 2
-	;if WinExist("Foundry Virtual Tabletop")
-	;	Winactivate, Foundry Virtual Tabletop
-	;else
-	;{
-	;	Msgbox,,,Foundry instance not found. Returning...,2
-	;	Return
-	;}
-
-	;MouseGetPos, PosX, PosY
-	;MouseClick, right, 929, 1363	;Right click macro
-	;MouseClick, left, 932, 1234	;Edit macro menu
+	SaveToClip:="K:\Documents\Foundry\Data\" StrReplace(StrReplace(FoundryImage, "/", "\"), """")
+	Clipboard:=SaveToClip
+	Run, %ImgPath%
+	Run, "%ExportDir%\.NewBorder.pdn"
+	Msgbox Copied to clipboard:`n%Clipboard%`n`nClick OK when ready to import into Foundry.
 
 	Macro=		;FoundryMacro
 	(
@@ -1498,14 +1461,10 @@ FoundryImport()
 		const Race=comRaces.getName("%Race%")
 		await actor.createEmbeddedDocuments('Item', [Race.toObject()])
 	)
-	
 	Clipboard = %Macro%
-	;Msgbox %random_file%
-	Run, %ImgPath%
-	Run, "%ExportDir%\.NewBorder.pdn"
-	
+	Msgbox Paste Clipboard into Foundry macro to generate "%FoundryName%". Click OK to move original image out of main repo.
 	Sleep 1000
-	;FileMove, %ImgPath%, %ExportDir%\.Saved\BaseImg\%Race%\%FullGender%\%FoundryName%.*
+	FileMove, %ImgPath%, %ExportDir%\.Saved\BaseImg\%Race%\%FullGender%\%FoundryName%.*
 	return
 }
 
@@ -1521,8 +1480,8 @@ ChangeRace()
 {
 	global
 	GuiControl, Text, Race
-	Sleep 100, Race := ""	
-	Prompt()
+	Sleep 100, Race := "All"	
+	SettingModifiers()
 	GuiControl, Text, Race, %FullGender% %Race%
 	ChangeAvatar()
 	return
@@ -1663,9 +1622,24 @@ FoundryName3()
 	FoundryImport()
 }
 
+SettingsRead()
+{
+	global
+	IniRead, PlayerCount, %Ini%, Settings, PlayerCount
+	IniRead, PlayerLevel, %Ini%, Settings, PlayerLevel
+	IniRead, CRLevel, %Ini%, Settings, CRLevel
+	IniRead, Environment, %Ini%, Settings, Environment
+	IniRead, Gender, %Ini%, Settings, Gender
+	IniRead, Race, %Ini%, Settings, Race
+	IniRead, Taxonomy, %Ini%, Settings, Taxonomy
+	IniRead, Class, %Ini%, Settings, Class
+	
+}
+
 SettingsPage()
 {
 	global
+	SettingsRead()
 	;Gui, GenGUI:Hide
 	Gui, Settings:New
 	Gui, Settings:Color, 050505
@@ -1676,36 +1650,55 @@ SettingsPage()
 	IniRead, PlayerLevel, %Ini%, Settings, PlayerLevel
 
 	;Icons
-	Gui, Settings:Add, Picture, x520 y40 w36 h-1 BackgroundTrans, %Bin%\Icons\Save.png
-	Gui, Settings:Add, Picture, x490 y480 w96 h-1 BackgroundTrans, %Bin%\Icons\supportmepls.png
+	Gui, Settings:Add, Picture, x520 y40 w36 h-1 BackgroundTrans gButtonSave, %Bin%\Icons\Save.png
+	Gui, Settings:Add, Picture, x490 y480 w96 h-1 BackgroundTrans gButtonDonate, %Bin%\Icons\supportmepls.png
 
 	;Headers
 	Gui, Settings:Add, Picture, x180 y0 w228 h-1 BackgroundTrans, %Bin%\Icons\SettingsHeader.png
 	HeaderMar:=30
 	Gui, Settings:Font, s16 Centaur bold
 	Gui, Settings:Add, Text, cWhite BackgroundTrans x%HeaderMar% y100 center, [ Game Settings ]
+	Gui, Settings:Add, Text, cWhite BackgroundTrans x%HeaderMar% y270 center, [ Generator Settings ]
 
 	;Settings
 	Gui, Settings:Font, s12 Centaur
 	Gui, Add, Edit, x150 y135 w40, %PlayerCount%
 	Gui, Add, Edit, x150 y165 w40, %PlayerLevel%
 	Gui, Add, DropdownList, x120 y195 w80 vCRLevel, CR||Level
-	Gui, Settings:Add, Text, cWhite BackgroundTrans x%HeaderMar% y140 center, Player Count = 
-	Gui, Settings:Add, Text, cWhite BackgroundTrans x%HeaderMar% y170 center, Player Level = 
+	Gui, Add, DropdownList, x150 y225 w120 vEnvironment, All||Aquatic|Desert|Flight|Foreign|Forest|Futuristic|Mountains|Space|Temperate|Tropical|Tundra|Underdark
+	Gui, Add, DropdownList, x110 y305 w80 vGender, %Gender%||Any|M|F
+	Gui, Add, DropdownList, x90 y335 w140 vRace, %Race%||All|Aarakocra|Aasimar|Arboren|Autognome|Beastiary|Bugbear|Centaur|Cervan|Changeling|Construct|Deity|Dhampir|Djinn|Dragonborn|Drow|Duergar|Dwarf|Eladrin|Elemental|Elf|Fairy|Fiend|Finrin|Firbolg|Floran|Gallus|Genasi|Giant|Giff|Githyanki|Githzerai|Gnoll|Gnome|Goblin|Goliath|Gorgon|Grung|Hadozee|Half-Dwarf|Half-Elf|Half-Giant|Half-Orc|Halfling|Harengon|Hedge|Hexblood|Hobgoblin|Human|Illithid|Kalashtar|Kender|Kenku|Khenra|Kobold|Kor|Leonin|Locathah|Loxodon|Luma|Lupin|Mapach|Merfolk|Minotaur|Misc|Myconid|Necromancer|Nycter|Ogre|Orc|Owlin|Plasmoid|Porcein|Rhox|Satyr|Scurrian|Shadar-Kai|Shifter|Simic|Siren|Skaven|Squaloan|Supernatural|Tabaxi|Thri-Kreen|Tiefling|Tortle|Troll|Undead|Ursine|Vedalken|Verdan|Warforged|Warlock|Whalekin|Wizard|Yuan-Ti
+	Gui, Add, DropdownList, x130 y365 w110 vTaxonomy, All||Alien |Elemental|Fish|Flora|Homebrew|Human|Insect|Mammal|Reptile|Supernatural
+	Gui, Add, DropdownList, x110 y395 w110 vNPC_Class, All||Artificer|Barbarian|Bard|Cleric|Druid|Fighter|Monk|Mystic|Paladin|Ranger|Rogue|Sorcerer|Warlock|Wizard|
+	Gui, Settings:Add, Text, cWhite BackgroundTrans x%HeaderMar% y140 center, Player Count =
+	Gui, Settings:Add, Text, cWhite BackgroundTrans x%HeaderMar% y170 center, Player Level =
 	Gui, Settings:Add, Text, cWhite BackgroundTrans x%HeaderMar% y200 center, CR/Level =
-	Gui, Settings:Add, Text, cWhite BackgroundTrans x%HeaderMar% y230 center, CR/Level =
+	Gui, Settings:Add, Text, cWhite BackgroundTrans x%HeaderMar% y230 center, Environment =
+	Gui, Settings:Add, Text, cWhite BackgroundTrans x%HeaderMar% y310 center, Gender =
+	Gui, Settings:Add, Text, cWhite BackgroundTrans x%HeaderMar% y340 center, Race =
+	Gui, Settings:Add, Text, cWhite BackgroundTrans x%HeaderMar% y370 center, Taxonomy =
+	Gui, Settings:Add, Text, cWhite BackgroundTrans x%HeaderMar% y400 center, Class =
 
 	;Support
-	Gui, Settings:Add, Text, cWhite BackgroundTrans x390 y520 w96 center, Support me on Ko-fi!
-
-
-	;Gui, Settings:Show, w600 h620 x1730, Settings
-	Gui, Settings:Show, w600 h620 x530, Settings
+	Gui, Settings:Add, Text, cWhite BackgroundTrans x390 y520 w96 center gButtonDonate, Support me on Patreon!
 	return
+	
 	ButtonSave:
 	Gui, Settings:Submit
 	IniWrite, %PlayerCount%, %Ini%, Settings, PlayerCount
 	IniWrite, %PlayerLevel%, %Ini%, Settings, PlayerLevel
+	IniWrite, %CRLevel%, %Ini%, Settings, CRLevel
+	IniWrite, %Environment%, %Ini%, Settings, Environment
+	IniWrite, %Gender%, %Ini%, Settings, Gender
+	IniWrite, %Race%, %Ini%, Settings, Race
+	IniWrite, %Taxonomy%, %Ini%, Settings, Taxonomy
+	IniWrite, %Class%, %Ini%, Settings, Class
+	;Run, %INI%	;Debugging
+	Reload
+	return
+
+	ButtonDonate:
+	Run, https://patreon.com/
 	return
 }
 
